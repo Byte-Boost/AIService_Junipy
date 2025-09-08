@@ -36,4 +36,10 @@ pip install -r requirements.txt
 
 * Documentação Swagger: [http://localhost:8000/docs](http://localhost:8000/docs)
 
+#### 5. Para a conexão do modelo
+
+### Abra este arquivo com seu editor de texto de preferência, e preencha o mesmo seguindo o modelo ".env.example", presente no mesmo diretório
+
+
+
 ---
