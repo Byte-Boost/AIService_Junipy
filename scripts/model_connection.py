@@ -1,4 +1,4 @@
-from llama_cpp import Llama  # Llama foi escolhido para rodar o modelo quantizado .gguf para melhor performance.
+from llama_cpp import Llama  # Llama was chosen to run the quantized .gguf model for better performance.
 from dotenv import load_dotenv
 import os
 import time
@@ -17,19 +17,18 @@ class MedGemmaClient:
         if cls._instance is None:
             cls._instance = super().__new__(cls)
 
-            print(" Baixando/Carregando MedGemma do Hugging Face Hub...")
+            print(" Downloading/Loading MedGemma from the Hugging Face Hub...")
 
-            # Carrega modelo diretamente do Hugging Face
             cls._instance.model = Llama.from_pretrained(
             repo_id="unsloth/medgemma-4b-it-GGUF",
             filename="medgemma-4b-it-BF16.gguf",
-            hf_token=os.getenv("HF_TOKEN"),  # pega o token do ambiente
+            hf_token=os.getenv("HF_TOKEN"),  
             n_ctx=n_ctx,
             n_threads=n_threads or os.cpu_count(),
             verbose=False
         )
 
-            print("MedGemma (GGUF) carregado com sucesso!")
+            print("MedGemma (GGUF)")
 
         return cls._instance
 
@@ -51,16 +50,16 @@ class MedGemmaClient:
         end_time = time.time()
         elapsed = end_time - start_time
 
-        print(f"Tempo de resposta: {elapsed:.2f} segundos")
+        print(f"Response time: {elapsed:.2f} seconds.")
 
         return output["choices"][0]["text"].strip()
 
 
-# Exemplo de uso
+# Usage example
 if __name__ == "__main__":
     client = MedGemmaClient()
 
-    resposta = client.generate("Explique o que é gripe.")
-    print(resposta)
+    response = client.generate("Explique o que é gripe.")
+    print(response)
 
-#ao rodar a primeira vez o tempo de resposta geralmente é alto.
+# The first run usually has a longer response time.
