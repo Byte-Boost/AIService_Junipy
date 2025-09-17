@@ -470,9 +470,9 @@ id, Nome, Umidade (%), Energia (kcal), Energia (kJ), Proteína (g), Lipídeos (g
 469, Queijo ricota, 73.6, 140, 585, 12.6, 8.1, 49, 3.8, NA, 1.9, 253, 12,
 470, Bebida isotônica sabores variados, 93.5, 26, 107, 0.0, 0.0, NA, 6.4, NA, 0.1, 1, Tr,
 471, Café infusão 10%, 97.4, 9, 38, 0.7, 0.1, NA, 1.5, NA, 0.4, 3, 10,
-472, Cana aguardente, 1 , , 216, 902, , , NA, , NA, , Tr, Tr,
+472, Cana aguardente, 1 , , 216, 902, , , NA, , NA, , Tr, Tr
 473, Cana caldo de, 81.7, 65, 273, Tr, Tr, NA, 18.2, 0.1, 0.1, 9, 12,
-474, Cerveja pilsen, 2 , 92.4, 41, 170, 0.6, Tr, NA, 3.3, NA, 0.1, 5, 7,
+474, Cerveja pilsen, 2 , 92.4, 41, 170, 0.6, Tr, NA, 3.3, NA, 0.1, 5, 7
 475, Chá erva-doce infusão 5%, 99.6, 1, 6, 0.0, 0.0, NA, 0.4, NA, 0.0, 2, 1,
 476, Chá mate infusão 5%, 99.3, 3, 11, 0.0, 0.1, NA, 0.6, NA, 0.0, 1, 2,
 477, Chá preto infusão 5%, 99.4, 2, 9, 0.0, 0.0, NA, 0.6, NA, 0.0, 0, 1,
