@@ -278,7 +278,7 @@ id,nome,umidade_(%),energia_(kcal),energia_(kj),proteina_(g),lipideos_(g),colest
 277, atum conserva em oleo, 64.5, 166, 694, 26.2, 6.0, 53, 0.0,0, 1.5, 7, 29
 278, atum fresco cru, 73.1, 118, 492, 25.7, 0.9, 48, 0.0,0, 1.3, 7, 32
 279, bacalhau salgado cru, 47.9, 136, 569, 29.0, 1.3, 139, 0.0,0, 22.5, 157, 49
-280, bacalhau salgado refogado, 65.9, 140, 584, 24.0, 3.6, 112, 1.2, *, 5.3, 59, 15
+280, bacalhau salgado refogado, 65.9, 140, 584, 24.0, 3.6, 112, 1.2,0, 5.3, 59, 15
 281, cacao posta com farinha de trigo frita, 60.6, 208, 872, 25.0, 10.0, 75, 3.1, 0.5, 1.4, 30, 26
 282, cacao posta cozida, 75.9, 116, 485, 25.6, 0.7, 83, 0.0,0, 1.2, 10, 21
 283, cacao posta crua, 81.4, 83, 349, 17.9, 0.8, 36, 0.0,0, 1.2, 9, 19
@@ -290,7 +290,7 @@ id,nome,umidade_(%),energia_(kcal),energia_(kj),proteina_(g),lipideos_(g),colest
 289, corimbata assado, 59.9, 261, 1094, 19.9, 19.6, 80, 0.0,0, 1.0, 22, 24
 290, corimbata cozido, 64.6, 239, 999, 20.1, 16.9, 75, 0.0,0, 0.8, 65, 23
 291, corvina de agua doce crua, 79.2, 101, 423, 18.9, 2.2, 73, 0.0,0, 1.0, 39, 25
-292, corvina do mar crua, 79.4, 94, 392, 18.6, 1.6, 67, 0.0,0, 1.1, *, 24
+292, corvina do mar crua, 79.4, 94, 392, 18.6, 1.6, 67, 0.0,0, 1.1,0, 24
 293, corvina grande assada, 69.0, 147, 613, 26.8, 3.6, 117, 0.0,0, 1.3, 60, 24
 294, corvina grande cozida, 73.6, 100, 419, 23.4, 2.6, 123, 0.0,0, 0.9, 69, 22
 295, dourada de agua doce fresca, 76.2, 131, 549, 18.8, 5.6, 52, 0.0,0, 1.1, 12, 26
@@ -328,8 +328,8 @@ id,nome,umidade_(%),energia_(kcal),energia_(kj),proteina_(g),lipideos_(g),colest
 327, carne bovina acem moido cru, 72.7, 137, 571, 19.4, 5.9, 58, 0.0,0, 0.9, 3, 14
 328, carne bovina acem sem gordura cozido, 60.4, 215, 898, 27.3, 10.9, 107, 0.0,0, 0.8, 7, 14
 329, carne bovina acem sem gordura cru, 71.5, 144, 603, 20.8, 6.1, 53, 0.0,0, 1.0, 5, 13
-330, carne bovina almondegas cruas, 64.3, 189, 792, 12.3, 11.2, 34, 9.8, *, 2.4, 22, 24
-331, carne bovina almondegas fritas, 48.1, 272, 1137, 18.2, 15.8, 36, 14.3, *, 3.7, 27, 48
+330, carne bovina almondegas cruas, 64.3, 189, 792, 12.3, 11.2, 34, 9.8,0, 2.4, 22, 24
+331, carne bovina almondegas fritas, 48.1, 272, 1137, 18.2, 15.8, 36, 14.3,0, 3.7, 27, 48
 332, carne bovina bucho cozido, 74.1, 133, 557, 21.6, 4.5, 245, 0.0,0, 0.3, 13, 7
 333, carne bovina bucho cru, 75.0, 137, 574, 20.5, 5.5, 145, 0.0,0, 0.4, 9, 6
 334, carne bovina capa de contra-file com gordura crua, 64.8, 217, 908, 19.2, 15.0, 63, 0.0,0, 0.9, 6, 17
@@ -346,7 +346,7 @@ id,nome,umidade_(%),energia_(kcal),energia_(kj),proteina_(g),lipideos_(g),colest
 345, carne bovina contra-file sem gordura cru, 69.1, 157, 655, 24.0, 6.0, 59, 0.0,0, 1.0, 4, 21
 346, carne bovina contra-file sem gordura grelhado, 57.5, 194, 810, 35.9, 4.5, 102, 0.0,0, 1.3, 5, 21
 347, carne bovina costela assada, 43.2, 373, 1561, 28.8, 27.7, 95, 0.0,0, 1.0, 28, 20
-348, carne bovina costela crua, 52.7, 358, 1497, 16.7, 31.8, 44, 0.0,0, 0.9, *, 12
+348, carne bovina costela crua, 52.7, 358, 1497, 16.7, 31.8, 44, 0.0,0, 0.9,0, 12
 349, carne bovina coxao duro sem gordura cozido, 58.5, 217, 906, 31.9, 8.9, 71, 0.0,0, 0.9, 4, 14
 350, carne bovina coxao duro sem gordura cru, 69.8, 148, 619, 21.5, 6.2, 60, 0.0,0, 1.1, 3, 21
 351, carne bovina coxao mole sem gordura cozido, 58.0, 219, 915, 32.4, 8.9, 84, 0.0,0, 1.2, 4, 13
@@ -413,9 +413,9 @@ id,nome,umidade_(%),energia_(kcal),energia_(kj),proteina_(g),lipideos_(g),colest
 412, frango sobrecoxa com pele crua, 63.6, 255, 1065, 15.5, 20.9, 88, 0.0,0, 0.8, 7, 22
 413, frango sobrecoxa sem pele assada, 55.6, 233, 974, 29.2, 12.0, 145, 0.0,0, 1.5, 12, 17
 414, frango sobrecoxa sem pele crua, 72.7, 162, 677, 17.6, 9.6, 84, 0.0,0, 0.9, 6, 26
-415, hamburguer bovino cru, 63.6, 215, 899, 13.2, 16.2, 70, 4.2, *, 2.9, 34, 25
-416, hamburguer bovino frito, 52.5, 258, 1081, 20.0, 17.0, 49, 6.3, *, 4.2, 62, 60
-417, hamburguer bovino grelhado, 59.2, 210, 878, 13.2, 12.4, 59, 11.3, *, 3.9, 56, 48
+415, hamburguer bovino cru, 63.6, 215, 899, 13.2, 16.2, 70, 4.2,0, 2.9, 34, 25
+416, hamburguer bovino frito, 52.5, 258, 1081, 20.0, 17.0, 49, 6.3,0, 4.2, 62, 60
+417, hamburguer bovino grelhado, 59.2, 210, 878, 13.2, 12.4, 59, 11.3,0, 3.9, 56, 48
 418, linguica frango crua, 64.8, 218, 913, 14.2, 17.4, 64, 0.0,0, 3.3, 11, 19
 419, linguica frango frita, 59.6, 245, 1027, 18.3, 18.5, 76, 0.0,0, 3.8, 15, 29
 420, linguica frango grelhada, 58.6, 244, 1019, 18.2, 18.4, 80, 0.0,0, 3.8, 14, 21
@@ -448,15 +448,15 @@ id,nome,umidade_(%),energia_(kcal),energia_(kj),proteina_(g),lipideos_(g),colest
 447, creme de leite, 70.9, 221, 927, 1.5, 22.5, 66, 4.5,0, 0.6, 83, 8
 448, iogurte natural, 90.0, 51, 215, 4.1, 3.0, 14, 1.9,0, 0.9, 143, 11
 449, iogurte natural desnatado, 89.2, 41, 174, 3.8, 0.3, 3, 5.8,0, 0.9, 157, 12
-450, iogurte sabor abacaxi, *, *, *, *, *, 6, *, *, *, *, *
+450, iogurte sabor abacaxi,0,0,0,0,0, 6,0,0,0,0,0
 451, iogurte sabor morango, 84.6, 70, 291, 2.7, 2.3, 7, 9.7, 0.2, 0.6, 101, 8
 452, iogurte sabor pessego, 85.1, 68, 284, 2.5, 2.3, 8, 9.4, 0.7, 0.6, 95, 8
 453, leite condensado, 27.0, 313, 1308, 7.7, 6.7, 28, 57.0,0, 1.6, 246, 22
 454, leite de cabra, 87.1, 66, 278, 3.1, 3.8, 14, 5.2,0, 0.9, 112, 10
 455, leite de vaca achocolatado, 80.9, 83, 347, 2.1, 2.2, 6, 14.2, 0.6, 0.7, 70, 13
 456, leite de vaca desnatado po, 3.1, 362, 1513, 34.7, 0.9, 25, 53.0,0, 8.2, 1363, 109
-457, leite de vaca desnatado uht, *, *, *, *, *, 4, *,0, 0.8, 134, 10
-458, leite de vaca integral, *, *, *, *, *, 10, *,0, 0.8, 123, 10
+457, leite de vaca desnatado uht,0,0,0,0,0, 4,0,0, 0.8, 134, 10
+458, leite de vaca integral,0,0,0,0,0, 10,0,0, 0.8, 123, 10
 459, leite de vaca integral po, 2.7, 497, 2078, 25.4, 26.9, 85, 39.2,0, 5.8, 890, 77
 460, leite fermentado, 81.9, 70, 291, 1.9, 0.1, 2, 15.7,0, 0.5, 72, 6
 461, queijo minas frescal, 56.1, 264, 1106, 17.4, 20.2, 62, 3.2,0, 3.0, 579, 7
@@ -589,7 +589,7 @@ id,nome,umidade_(%),energia_(kcal),energia_(kj),proteina_(g),lipideos_(g),colest
 588, castanha-de-caju torrada salgada, 3.5, 570, 2386, 18.5, 46.3,0, 29.1, 3.7, 2.6, 33, 237
 589, castanha-do-brasil crua, 3.5, 643, 2690, 14.5, 63.5,0, 15.1, 7.9, 3.4, 146, 365
 590, coco cru, 43.0, 406, 1701, 3.7, 42.0,0, 10.4, 5.4, 1.0, 6, 51
-591, coco  verde cru, *, *, *, *, *, *, *, *, *, *, *
+591, coco  verde cru,0,0,0,0,0,0,0,0,0,0,0
 592, farinha de mesocarpo de babacu crua, 15.8, 329, 1376, 1.4, 0.2,0, 79.2, 17.9, 3.4, 61, 39
 593, gergelim semente, 3.9, 584, 2442, 21.2, 50.4,0, 21.6, 11.9, 2.9, 825, 361
 594, linhaca semente, 6.7, 495, 2072, 14.1, 32.3,0, 43.3, 33.5, 3.7, 211, 347
