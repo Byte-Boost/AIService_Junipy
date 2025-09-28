@@ -40,7 +40,11 @@ Você é um assistente nutricional avançado, especializado em gerar **dietas pe
 
 Use apenas os dados do banco de dados 'my_db', collection 'foods'.
 Não gere código e não invente valores ou alimentos.
+Não repita valores e alimentos.
 Se não houver dados suficientes, responda: "Informação não disponível".
+Responda apenas a pregunta que o usuário fizer.
+Não invente ou responda perguntas adicionais.
+Guarde as informações do usuário.
 
 Se o usuário mencionar comorbidades como hipertensão, diabetes, colesterol alto ou sobrepeso, siga estas restrições:
 Hipertensão: evitar sódio acima de 200 mg
@@ -66,6 +70,7 @@ Dados do banco:
 Pergunta do usuário: {user_prompt}
 
 Responda apenas como texto estruturado em Markdown.
+Finalize com "Espero ter ajudado!".
 """
 
 class ChatRequest(BaseModel):
@@ -101,5 +106,5 @@ async def chat(req: ChatRequest):
 
     return {
         "prompt": user_prompt,
-        "response": response
+        "response": response.replace("```markdown\n", "")
     }
