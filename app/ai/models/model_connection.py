@@ -22,14 +22,14 @@ class MedGemmaClient:
         )
         print("MedGemma loaded successfully!")
 
-    def generate(self, prompt: str, max_new_tokens=120, temperature=0.3, top_p=0.9) -> str:
+    def generate(self, prompt: str, max_new_tokens=2048, temperature=0.3, top_p=0.9) -> str:
         start_time = time.time()
         output = self.model(
             prompt,
             max_tokens=max_new_tokens,
             temperature=temperature,
             top_p=top_p,
-            stop=["</s>"]
+            stop=["Espero ter ajudado!", "</s>"]
         )
         elapsed = time.time() - start_time
         print(f"Response time: {elapsed:.2f} seconds.")
