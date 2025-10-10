@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from app.ai.models.model_connection import MedGemmaClient
+from ai.models.model_connection import MedGemmaClient
 import chromadb
 from sentence_transformers import SentenceTransformer
 import logging
