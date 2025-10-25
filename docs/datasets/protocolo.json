@@ -1,0 +1,5128 @@
+[
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "DO GUIA ALIMENTAR PARA"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "A POPULAÇÃO BRASILEIRA"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "ORIENTAÇÃO ALIMENTAR DE PESSOAS ADULTAS"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "COM OBESIDADE, HIPERTENSÃO ARTERIAL E"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "DIABETES MELLITUS: BASES TEÓRICAS"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "E METODOLÓGICAS"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "VOLUME 1"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "Brasília - DF"
+    },
+    {
+        "pagina": 1,
+        "tipo": "texto",
+        "conteudo": "2022"
+    },
+    {
+        "pagina": 2,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE"
+    },
+    {
+        "pagina": 2,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 2,
+        "tipo": "texto",
+        "conteudo": "VOLUME 1"
+    },
+    {
+        "pagina": 2,
+        "tipo": "texto",
+        "conteudo": "Protocolos de Uso do Guia Alimentar para a População Brasileira"
+    },
+    {
+        "pagina": 2,
+        "tipo": "texto",
+        "conteudo": "Orientação alimentar de pessoas adultas com obesidade, hipertensão arterial"
+    },
+    {
+        "pagina": 2,
+        "tipo": "texto",
+        "conteudo": "e diabetes mellitus: bases teóricas e metodológicas"
+    },
+    {
+        "pagina": 2,
+        "tipo": "texto",
+        "conteudo": "Brasília - DF"
+    },
+    {
+        "pagina": 2,
+        "tipo": "texto",
+        "conteudo": "2022"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "2022 Ministério da Saúde. Universidade de Brasília."
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Esta obra é disponibilizada nos termos da Licença Creative Commons – Atribuição – Não"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Comercial – Compartilhamento pela mesma licença 4.0 Internacional. É permitida a reprodução"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "parcial ou total desta obra, desde que citada a fonte."
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "A coleção institucional do Ministério da Saúde pode ser acessada, na íntegra, na Biblioteca Virtual em Saúde do Ministério"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "da Saúde: bvsms.saude.gov.br."
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Tiragem: 1ª edição – 2022 – versão eletrônica"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Elaboração, distribuição e informações:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Secretaria de Atenção Primária à Saúde Faculdade de Ciências da Saúde"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Departamento de Promoção da Saúde Departamento de Nutrição"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Esplanada dos Ministérios, bloco G, 7º andar Campus Universitário Darcy Ribeiro, s/n - Asa Norte"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "CEP: 70058-900 – Brasília/DF CEP: 70910-900 – Brasília/DF"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Tel.: (61) 3315-9031 Tel.: (61)3107-1747"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Site: https://aps.saude.gov.br Site: http://www.fs.unb.br/extensao/nutricao"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "E-mail: aps@saude.gov.br E-mail: nut@unb.br"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Editor-Geral:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Raphael Câmara Medeiros Parente Revisão técnica:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Gisele Ane Bortolini"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Supervisão geral:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Juliana Rezende Melo da Silva Colaboração:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Ariene Silva do Carmo"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Elaboração técnica: Gabriella Carrilho Lins de Andrade"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Vivian Siqueira Santos Gonçalves Gisele Ane Bortolini"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Jéssica Pedroso da Silva"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Elaboração: Thais Fonseca Veloso de Oliveira"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Anna Beatriz de Oliveira Chaves"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Eliane Said Dutra Coordenação editorial:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Kênia Mara Baiocchi de Carvalho Júlio César de Carvalho e Silva"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Laila Santos de Andrade"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Lorrany Santos Rodrigues Projeto gráfico e diagramação:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Nathalia Marcolini Pelucio Pizato SCM"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Natacha de Oliveira Hoepfner"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Patrícia Borges Botelho Normalização:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Verena Duarte de Moraes Daniel Pereira Rosa – Editora MS/CGDI"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Vivian Siqueira Santos Gonçalves"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Ficha Catalográfica"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "_____________________________________________________________________________________________________________________________"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Brasil. Ministério da Saúde."
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Orientação alimentar de pessoas adultas com obesidade, hipertensão arterial e diabetes mellitus : bases teóricas"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "e metodológicas [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Universidade de"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Brasília. – Brasília : Ministério da Saúde, 2022."
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "30 p. : il. – (Protocolos de uso do guia alimentar para a população brasileira ; v. 1)"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Modo de acesso: World Wide Web: http://bvsms.saude.gov.br/bvs/publicacoes/fasciculo1_protocolos_alimentar_"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "adultas_obesidade.pdf"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "ISBN 978-65-5993-225-2"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "1. Guias Alimentares. 2. Diabetes Mellitus. 3. Obesidade. I. Universidade de Brasília. II. Título. III. Série."
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "CDU 612.3"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "___________________________________________________________________________________________________________________________"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2022/0102"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Título para indexação:"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "Nutritional counseling for adults with obesity, arterial hypertension and diabetes mellitus: theoretical and"
+    },
+    {
+        "pagina": 3,
+        "tipo": "texto",
+        "conteudo": "methodological bases"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "SUMÁRIO"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "APRESENTAÇÃO 4"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR PARA A POPULAÇÃO BRASILEIRA"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "5"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "NO CONTEXTO DA ATENÇÃO NUTRICIONAL DO SISTEMA ÚNICO DE SAÚDE"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "GUIA ALIMENTAR PARA A POPULAÇÃO BRASILEIRA 7"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "OBESIDADE, HIPERTENSÃO ARTERIAL E DIABETES MELLITUS:"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "11"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "PREVALÊNCIA E IMPACTOS PARA O SUS"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "ORIENTAÇÃO ALIMENTAR INDIVIDUAL A PESSOAS COM OBESIDADE,"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "15"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "HIPERTENSÃO E DIABETES MELLITUS"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "PRÁTICAS ADOTADAS PARA ORIENTAÇÃO ALIMENTAR NO SUS"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "16"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "INVESTIGADAS POR MEIO DE CONSULTA A PROFISSIONAIS DE SAÚDE"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "TECNOLOGIAS DE APOIO E EVIDÊNCIAS CIENTÍFICAS SOBRE ALIMENTAÇÃO"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "19"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "E TRATAMENTO DE PESSOAS COM OBESIDADE, HIPERTENSÃO ARTERIAL E"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "DIABETES MELLITUS"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "POR QUE OS ALIMENTOS ULTRAPROCESSADOS DEVEM SER EVITADOS 22"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "MARCADORES DE CONSUMO ALIMENTAR NA APS 23"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "ELABORAÇÃO DOS PROTOCOLOS DE USO DO GUIA ALIMENTAR PARA"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "A POPULAÇÃO BRASILEIRA NA ORIENTAÇÃO ALIMENTAR DE PESSOAS 24"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "ADULTAS COM OBESIDADE, HIPERTENSÃO ARTERIAL E DIABETES MELLITUS"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "27"
+    },
+    {
+        "pagina": 4,
+        "tipo": "texto",
+        "conteudo": "REFERÊNCIAS"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "APRESENTAÇÃO"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "Este é o primeiro volume da série intitulada “Protocolos de Uso do Guia Alimentar"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "para a População Brasileira na orientação alimentar de pessoas adultas com obesidade,"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "hipertensão arterial e diabetes mellitus”. Um conjunto de três protocolos compõe essa série"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "que foi elaborada com a finalidade de disseminar as recomendações do Guia Alimentar"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "para a População Brasileira e instrumentalizar a orientação alimentar individualizada"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "pelos profissionais da Atenção Primária à Saúde (APS). O presente volume apresenta a"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "base teórica e metodológica utilizada para a construção de cada protocolo, a partir das"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "recomendações do Guia Alimentar adaptadas ao contexto de cada doença."
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "Obesidade, hipertensão arterial e diabetes mellitus são doenças crônicas não"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "transmissíveis (DCNT) com alta prevalência na população brasileira. Essas geram"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "consequências negativas como perda da qualidade de vida, aumento da mortalidade"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "e elevada carga econômica para os sistemas de saúde e sociedade. Assim, ações que"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "visam a prevenção e o tratamento adequado de pessoas que tenham essas doenças são"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "essenciais para reduzir e controlar esses impactos, como também, prevenir complicações"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "e, consequentemente, contribuir com a qualidade de vida da população."
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "Tendo em vista que a alimentação saudável, além de ser um fator"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "protetor, possui relevância no tratamento dessas doenças e que, os"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "profissionais da APS são fundamentais nas ações de cuidado, os protocolos"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "aqui apresentados têm o potencial de aperfeiçoar a rotina de atendimento"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "das equipes e aprimorar o acompanhamento dos usuários da APS no Sistema"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "Único de Saúde (SUS)."
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 4"
+    },
+    {
+        "pagina": 5,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "GUIA ALIMENTAR PARA A"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "POPULAÇÃO BRASILEIRA"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "NO CONTEXTO DA ATENÇÃO"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "NUTRICIONAL DO SISTEMA"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "ÚNICO DE SAÚDE"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "A alimentação é um direito social e um fator condicionante e determinante"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "da saúde (BRASIL, 2010; BRASIL, 1990). A Política Nacional de Alimentação e Nutrição"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "(PNAN), em busca da garantia da Segurança Alimentar e Nutricional, tem como propósito"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "a melhoria das condições de alimentação, nutrição e saúde da população brasileira,"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "mediante a promoção de práticas alimentares adequadas e saudáveis, da Vigilância"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "Alimentar e Nutricional, além da prevenção de doenças e do cuidado integral das"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "pessoas com agravos relacionados à alimentação e nutrição. A atenção nutricional deve"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "estar associada às demais ações de atenção à saúde no SUS, a fim de contribuir para a"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "conformação de uma rede integrada, resolutiva e humanizada de cuidados, tendo a APS"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "como coordenadora do cuidado e ordenadora da rede (BRASIL, 2013)."
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "No âmbito da APS, a prática da atenção nutricional deve ser desenvolvida por"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "equipes multiprofissionais, com a participação de profissionais da área de nutrição"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "dando suporte e instrumentalizando os demais membros no desenvolvimento de ações"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "relacionadas à alimentação, respeitando as atividades específicas de cada profissão"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "(BRASIL, 2013). Apesar dos esforços para a criação de equipes capazes de compartilhar"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "o cuidado integral aos usuários da APS, as orientações sobre alimentação saudável na"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "prática podem acabar centradas na figura do nutricionista, o que limita e restringe a"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "disseminação dessas informações. Ressalta-se que a atividade de prescrição dietética é"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "privativa deste profissional (BRASIL, 1991), mas a orientação alimentar pode e deve ser"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "realizada por qualquer profissional das equipes de APS (BRASIL, 2015)."
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "O Guia Alimentar para a População Brasileira é considerado uma tecnologia"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "importante para orientar a atuação dos profissionais de saúde na atenção nutricional"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "no SUS. No entanto, como se trata de um material voltado à população, não aborda"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 5"
+    },
+    {
+        "pagina": 6,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "orientações sobre como utilizar suas recomendações na"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "prática clínica, assim como não considera as singularidades"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "da orientação alimentar a pessoas com doenças específicas."
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "Logo, a ausência dessas orientações pode limitar o uso do"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "Guia Alimentar por profissionais da APS em sua rotina de"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "atendimentos individualizados (BRASIL, 2014a)."
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "Nesse contexto, o Ministério da Saúde, em parceria"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "com pesquisadores de Instituições de Ensino Superior,"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "tem desenvolvido materiais de apoio com o propósito"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "de disseminar as recomendações do Guia Alimentar e"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "orientar as equipes de APS para seu uso prático."
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "UNIVMEIRNSISIDTAÉRDIEO D DEA S SÃAOÚ PDAEULO"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "Em adição a essas publicações, foi lançada em"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "FASCÍCULO 1"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA NA"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "2021, uma série de Protocolos de Uso do Guia Alimentar. ORIENTAÇÃO ALIMENTAR: BASES TEÓRICAS E"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "METODOLÓGICAS E PROTOCOLO PARA A"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "POPULAÇÃO ADULTA"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "Nessa série, o Guia Alimentar foi considerado a tecnologia"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "específica a ser adotada na prática clínica com a finalidade"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "de incorporar o seu paradigma, além de induzir o seu uso"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "pelos profissionais de saúde na orientação alimentar em UNIVMEIRNSISIDTAÉRDIEO D DEA S SÃAOÚ PDAEULO"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "diferentes fases e evento do curso da vida de pessoas"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "Bras2í0li2a 1– DF"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "FASCÍCULO 2"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLO DE USO DO GUIA ALIMENTAR"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "atendidas na APS. Acesse alguns desses materiais clicando PARA A O P R O IE P N U T L A A Ç Ç Ã Ã O O A B L R I A M S E IL N E T IR A A R N DA A"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "PESSOA IDOSA"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "nas figuras ao lado."
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "Bras2í0li2a 1– DF"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "São “documentos normativos de escopo mais estrito, que estabelecem critérios,"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "parâmetros e padrões para a utilização de uma tecnologia específica em determinada"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "doença ou condição” (CONITEC, 2016). Fazem parte do grupo de protocolos em"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "saúde, que são instrumentos importantes para aperfeiçoar a atenção à saúde"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "e a gestão dos serviços. As recomendações contidas neles são elaboradas"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "sistematicamente com base em evidências científicas sendo úteis para a"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "atualização dos profissionais na área da saúde e contribuem para reduzir"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "variações inapropriadas na prática clínica (WERNECK; FARIA; CAMPOS, 2009)."
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 6"
+    },
+    {
+        "pagina": 7,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 7,
+        "tipo": "tabela",
+        "indice_tabela": 1,
+        "conteudo_dict": [
+            {
+                "UNIVMEIRNSISIDTAÉRDIEO D DEA S SÃAOÚ PDAEULO FASCÍCULO 1 PROTOCOLOS DE USO DO GUIA ALIMENTAR PARA A POPULAÇÃO BRASILEIRA NA ORIENTAÇÃO ALIMENTAR: BASES TEÓRICAS E METODOLÓGICAS E PROTOCOLO PARA A POPULAÇÃO ADULTA": "UNIVMEIRNSISIDTAÉRDIEO D DEA S SÃAOÚ PDAEULO Bras2í0li2a 1– DF FASCÍCULO 2 PROTOCOLO DE USO DO GUIA ALIMENTAR",
+                "": ""
+            },
+            {
+                "UNIVMEIRNSISIDTAÉRDIEO D DEA S SÃAOÚ PDAEULO FASCÍCULO 1 PROTOCOLOS DE USO DO GUIA ALIMENTAR PARA A POPULAÇÃO BRASILEIRA NA ORIENTAÇÃO ALIMENTAR: BASES TEÓRICAS E METODOLÓGICAS E PROTOCOLO PARA A POPULAÇÃO ADULTA": "PARA A POPULAÇÃO BRASILEIRA NA ORIENTAÇÃO ALIMENTAR DA PESSOA IDOSA Bras2í0li2a 1– DF",
+                "": ""
+            }
+        ],
+        "conteudo_texto": "UNIVMEIRNSISIDTAÉRDIEO D DEA S SÃAOÚ PDAEULO Bras2í0li2a 1– DF FASCÍCULO 2 PROTOCOLO DE USO DO GUIA ALIMENTAR,  | PARA A POPULAÇÃO BRASILEIRA NA ORIENTAÇÃO ALIMENTAR DA PESSOA IDOSA Bras2í0li2a 1– DF, "
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "Além do cuidado aos grupos populacionais para os quais foram direcionados"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "os protocolos lançados em 2021, os profissionais da APS também desempenham o"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "papel central no acompanhamento de pessoas com DCNT, destacando-se a obesidade,"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "a hipertensão arterial e o diabetes mellitus. Os Protocolos de Uso do Guia Alimentar"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "direcionados à população adulta com DCNT podem qualificar as orientações alimentares"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "realizadas por profissionais não nutricionistas, aprimorando ainda mais a rotina das"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "equipes de APS e melhorando o acompanhamento dos usuários do SUS."
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "GUIA ALIMENTAR PARA A POPULAÇÃO BRASILEIRA"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "O Guia Alimentar tem como objetivo incentivar práticas alimentares saudáveis"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "no âmbito individual e coletivo. É um instrumento que visa subsidiar políticas públicas,"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "programas e ações que estimulem, apoiem, protejam e promovam a saúde e a segurança"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "alimentar e nutricional da população. Sua versão atual foi publicada em 2014 e introduziu"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "uma nova abordagem para a classificação dos alimentos conforme o grau e a finalidade"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "do processamento industrial a que são submetidos, o que resultou em quatro grupos:"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "alimentos in natura ou minimamente processados, ingredientes culinários processados,"
+    },
+    {
+        "pagina": 8,
+        "tipo": "tabela",
+        "conteudo": "alimentos processados e alimentos ultraprocessados (Quadro 1) (BRASIL, 2014a;"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "MONTEIRO et al., 2019)."
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 7"
+    },
+    {
+        "pagina": 8,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 9,
+        "tipo": "tabela",
+        "conteudo": "Quadro 1 – Características e exemplos dos grupos de alimentos da classificação utilizada"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "no Guia Alimentar para a População Brasileira"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "GRUPO CARACTERÍSTICAS EXEMPLOS"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 8"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "uo"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "arutan"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "ni"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "sotnemilA"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "sodassecorp"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "etnemaminim"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "In natura: alimentos obtidos Legumes, verduras, frutas (in"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "diretamente de plantas ou natura ou secas), leguminosas"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "de animais, sem qualquer (feijões, lentilha, grão de bico, etc.),"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "alteração após deixar a natureza. tubérculos e raízes (mandioca,"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "Minimamente processados: batata, batata-doce, etc.), arroz,"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "alimentos in natura os quais foram milho, grãos de trigo e de outros"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "submetidos a processos que não cereais, farinhas, macarrão"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "envolvem adição de substâncias feito com farinha, água e ovos,"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "ao alimento original. Dentre esses oleaginosas sem sal ou açúcar"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "métodos estão a remoção de (amendoim, castanhas, nozes, etc.),"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "partes não comestíveis, moagem, especiarias em geral (cravo, canela,"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "desidratação, fermentação, manjericão, etc.), carnes em geral"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "pasteurização e congelamento. (boi, porco, ave, peixe) ovos, leites"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "(pasteurizados, ultrapasteurizados,"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "em pó), iogurtes naturais (sem"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "adição de açúcar), sucos de frutas"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "(naturais ou integrais sem adição de"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "açúcar), chá e café."
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "setneidergnI"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "soirániluc"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "sodassecorp"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "Produtos extraídos de alimentos in Óleos vegetais (soja, milho, girassol"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "natura ou da natureza e utilizados ou de oliva), manteiga, banha de"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "para temperar alimentos e criar porco, gordura de coco, açúcar"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "preparações culinárias variadas e (branco, demerara, mascavo)"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "saborosas. e sal refinado ou grosso."
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "sodassecorp"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "sotnemilA"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "Alimentos fabricados pela indústria Pães feitos de farinhas, fermento,"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "a partir da adição de sal ou açúcar água e sal, queijos, legumes e"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "ou outra substância pertencente leguminosas em conserva à base"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "ao grupo de ingredientes culinários de sal ou vinagre; extrato ou"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "processados a alimentos in natura concentrados de tomate (com sal"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "ou minimamente processados. O e/ou açúcar), frutas em calda ou"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "acréscimo dessas substâncias tem cristalizadas, carnes salgadas em"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "como objetivo conservar por um geral, sardinha e atum enlatados"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "período maior os alimentos e torná- com adição de óleo ou sal."
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "los mais agradáveis ao paladar,"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "aprimorando ou modificando as"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "qualidades sensoriais deles."
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "continua"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 8"
+    },
+    {
+        "pagina": 9,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 9"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "sodassecorpartlu"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "sotnemilA"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "conclusão"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "Formulações industriais Biscoitos, “salgadinhos de pacote”,"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "caracterizadas pela presença sorvetes, balas e guloseimas em"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "de substâncias alimentares de geral, refrigerantes e refrescos"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "nenhum ou raro uso culinário cereais açucarados para o desjejum"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "(açúcar invertido, lactose, óleos matinal, bolos e misturas para bolo,"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "hidrogenados ou interesterificados, barras de cereal, sopas, macarrão"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "isolado de proteína de soja, caseína e temperos “instantâneos”, molhos,"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "etc.) e com pouca ou nenhuma refrigerantes e refrescos, bebidas"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "quantidade de alimentos in natura energéticas, iogurtes e bebidas"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "ou minimamente processados em lácteas adoçados e aromatizados;"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "sua composição. A presença de produtos congelados e prontos"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "aditivos cosméticos (aromatizantes, para aquecimento como pratos"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "corantes, intensificadores de sabor de massas, pizzas, hambúrgueres"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "etc.), que têm como função alterar e extratos de carne de frango ou"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "aspectos sensoriais e tornar os peixe empanados do tipo nuggets,"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "produtos hiperpalatáveis e atraentes, salsichas e outros embutidos, pães"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "também é uma característica desse de forma, pães para hambúrguer ou"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "grupo de alimentos. Além disso, o hot dog."
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "açúcar, o sal, os óleos e as gorduras"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "são ingredientes comuns em"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "alimentos ultraprocessados. Técnicas"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "de manufatura incluem extrusão,"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "moldagem, e pré-processamento por"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "fritura ou cozimento."
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "Fonte: BRASIL, 2014a; MONTEIRO et al., 2019."
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "O Guia Alimentar aborda a alimentação de modo abrangente com foco na"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "promoção da saúde. São consideradas as combinações de alimentos, as preparações"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "culinárias, as dimensões culturais e sociais das práticas alimentares e o impacto das"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "formas de produção, distribuição, comercialização e consumo dos alimentos sobre a"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "justiça social e a integridade do ambiente, prezando por sistemas alimentares socialmente"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "e ambientalmente sustentáveis (BRASIL, 2014a). As suas recomendações focam na"
+    },
+    {
+        "pagina": 10,
+        "tipo": "texto",
+        "conteudo": "qualidade da alimentação e no ato de comer, ao invés da quantidade de nutrientes ou"
+    },
+    {
+        "pagina": 10,
+        "tipo": "tabela",
+        "conteudo": "porções de alimentos; e estão resumidas em 10 passos (Quadro 2)."
+    },
+    {
+        "pagina": 11,
+        "tipo": "tabela",
+        "conteudo": "Quadro 2 – Dez passos para uma alimentação adequada e saudável"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "1 6"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "Fazer de alimentos in natura ou Fazer compras em locais que ofertem"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "minimamente processados a base variedades de alimentos in natura ou"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "da alimentação minimamente processados"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "2 7"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "Utilizar óleos, gorduras, sal e açúcar Desenvolver, exercitar e partilhar"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "em pequenas quantidades ao habilidades culinárias"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "temperar e cozinhar alimentos e"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "criar preparações culinárias"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "Planejar o uso do tempo para dar à"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "3 8"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "alimentação o espaço que ela merece"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "Limitar o consumo de alimentos"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "processados"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "Dar preferência, quando fora de"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "4 casa, a locais que servem refeições 9"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "Evitar o consumo de alimentos feitas na hora"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "ultraprocessados"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "Ser crítico quanto a informações,"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "5 Comer com regularidade e atenção orientações e mensagens sobre 10"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "em ambientes apropriados e, sempre alimentação veiculadas em"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "que possível, com companhia propagandas comerciais"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "Fonte: BRASIL, 2014a."
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 10"
+    },
+    {
+        "pagina": 11,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "OBESIDADE, HIPERTENSÃO"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "ARTERIAL E DIABETES"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "MELLITUS: PREVALÊNCIA E"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "IMPACTOS PARA O SUS"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Obesidade, hipertensão arterial e diabetes mellitus são DCNT multifatoriais cujas"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "incidências podem estar relacionadas a aspectos biológicos, sociais, culturais, ambientais"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "e de saúde. A presença dessas doenças pode ainda aumentar o risco do aparecimento de"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "cânceres, doenças cardiovasculares e renais, fraturas e outros agravos osteoarticulares,"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "depressão, ansiedade e baixa autoestima (BRASIL, 2020a; BARROSO et al., 2021; SBD, 2019)."
+    },
+    {
+        "pagina": 12,
+        "tipo": "tabela",
+        "conteudo": "Veja no Quadro 3 uma breve definição e as complicações mais frequentes dessas doenças."
+    },
+    {
+        "pagina": 12,
+        "tipo": "tabela",
+        "conteudo": "Quadro 3 – Definição e complicações gerais da obesidade, hipertensão arterial e diabetes mellitus"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "DOENÇAS CRÔNICAS DEFINIÇÃO"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "NÃO TRANSMISSÍVEIS E COMPLICAÇÕES GERAIS"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Excesso de gordura corporal que leva ao comprometimento"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "da saúde, aumentando o risco de outras doenças crônicas não"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Obesidade"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "transmissíveis, tais como doenças cardiovasculares, diabetes e"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "alguns tipos de cânceres."
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Elevação persistente da pressão arterial sistólica e/ou diastólica."
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Costuma evoluir com alterações funcionais e/ou estruturais"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "de órgãos como coração, vasos sanguíneos, cérebro e rins,"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Hipertensão Arterial"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "tornando-a um fator de risco para outras doenças tais como as"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "cardiovasculares e a renal crônica."
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Distúrbio metabólico caracterizado por nível elevado e"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "persistente da glicemia, decorrente da deficiência na produção"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "de insulina e/ou na sua ação. Pessoas com diabetes apresentam"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Diabetes Mellitus risco aumentado para o desenvolvimento de doenças"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "cardiovasculares e cerebrovasculares, neuropatia, doença"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "arterial periférica, lesões oculares e doença renal crônica."
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "Fonte: BRASIL, 2020a; BARROSO et al., 2021; SBD, 2019."
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 11"
+    },
+    {
+        "pagina": 12,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 12,
+        "tipo": "tabela",
+        "indice_tabela": 1,
+        "conteudo_dict": [
+            {
+                "Obesidade": "Hipertensão Arterial",
+                "Excesso de gordura corporal que leva ao comprometimento da saúde, aumentando o risco de outras doenças crônicas não transmissíveis, tais como doenças cardiovasculares, diabetes e alguns tipos de cânceres.": "Elevação persistente da pressão arterial sistólica e/ou diastólica. Costuma evoluir com alterações funcionais e/ou estruturais de órgãos como coração, vasos sanguíneos, cérebro e rins, tornando-a um fator de risco para outras doenças tais como as cardiovasculares e a renal crônica."
+            }
+        ],
+        "conteudo_texto": "Hipertensão Arterial, Elevação persistente da pressão arterial sistólica e/ou diastólica. Costuma evoluir com alterações funcionais e/ou estruturais de órgãos como coração, vasos sanguíneos, cérebro e rins, tornando-a um fator de risco para outras doenças tais como as cardiovasculares e a renal crônica."
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "A prevalência dessas três doenças tem aumentado progressivamente na população"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "adulta do Brasil e do mundo, configurando-se como um desafio a ser enfrentado no"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "âmbito da saúde pública (NILSON et al., 2020)."
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "Estima-se que 1,13 bilhão de pessoas no mundo têm hipertensão (NCD-RISC, 2017), 463"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "milhões de pessoas têm diabetes (SAEEDI et al., 2019) e mais de 675 milhões de pessoas"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "apresentam obesidade (FAO et al., 2020)."
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "No Brasil, em 2019, a prevalência de hipertensão arterial foi de 38,1 milhões (23,9%),"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "diabetes 12,3 milhões (7,7%) (BRASIL, 2020b), obesidade 41,2 milhões (25,9%) e excesso"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "de peso 95,9 milhões (60,3%) da população (BRASIL, 2020c)."
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "38,1 milhões"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "MUNDO"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "HIPERTENSÃO"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "pessoas no Brasil"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "Hipertensão"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "1,13 bilhão"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "DIABETES 12,3 milhões"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "pessoas"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "pessoas no Brasil"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "Diabetes"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "463 milhões"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "41,2 milhões pessoas"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "OBESIDADE"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "pessoas no Brasil"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "Obesidade"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "675 milhões"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "pessoas"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "MMIINNIISSTTÉÉRRIIOO DDAA SSAAÚÚDDEE 1122"
+    },
+    {
+        "pagina": 13,
+        "tipo": "texto",
+        "conteudo": "UUNNIIVVEERRSSIIDDAADDEE DDEE BBRRAASSÍÍLLIIAA"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Entre os impactos gerados por essas doenças, destacam-se o aumento no número"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "de mortes prematuras, a perda da qualidade de vida, o aparecimento de incapacidades e"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "o elevado custo econômico para os sistemas de saúde e para a sociedade (BRASIL, 2011)."
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Em 2018, houve 1.829.779 internações por causas associadas à hipertensão arterial, ao"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "diabetes e à obesidade, correspondendo a, aproximadamente, 16% do total de internações"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "hospitalares no SUS. Os custos diretos atribuíveis à hipertensão arterial, diabetes e"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "obesidade no Brasil alcançaram R$ 3,45 bilhões, considerando gastos do SUS com"
+    },
+    {
+        "pagina": 14,
+        "tipo": "tabela",
+        "conteudo": "hospitalizações, procedimentos ambulatoriais e medicamentos (Tabela 1). Comparando"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "os custos por tipo de gasto, a maioria é decorrente do fornecimento de medicamentos,"
+    },
+    {
+        "pagina": 14,
+        "tipo": "tabela",
+        "conteudo": "seguido por hospitalizações e atendimentos ou procedimentos ambulatoriais (Tabela 2)"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "(NILSON et al., 2020)."
+    },
+    {
+        "pagina": 14,
+        "tipo": "tabela",
+        "conteudo": "Tabela 1 – Custos diretos atribuíveis a hipertensão arterial, diabetes mellitus e obesidade"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "para hospitalizações, procedimentos ambulatoriais e medicamentos em adultos no SUS."
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Brasil, 2018."
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Doenças Custos atribuíveis (R$ / %)"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Hipertensão arterial 2 029 423 609,36 59%"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Diabetes 1 048 247 505,49 30%"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Obesidade 371 689 215,03 11%"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Total 3 449 360 329,88 100%"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Fonte: adaptado de NILSON et al., 2020."
+    },
+    {
+        "pagina": 14,
+        "tipo": "tabela",
+        "conteudo": "Tabela 2 – Custos por tipos de gasto atribuíveis a hipertensão arterial, diabetes mellitus"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "e obesidade para medicamentos, hospitalizações e procedimentos ambulatoriais em"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "adultos no SUS. Brasil, 2018"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Tipo de gasto no SUS Custos (%)"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Fornecimento de medicamentos 58,8%"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Hospitalizações 34,6%"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Atendimentos/procedimentos ambulatoriais 6,6%"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "Fonte: adaptado de NILSON et al., 2020."
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 13"
+    },
+    {
+        "pagina": 14,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "O perfil epidemiológico atual demanda ações estratégicas com foco na garantia"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "da execução das políticas públicas e diretrizes oficiais para a prevenção e o tratamento"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "de DCNT, os quais possam contribuir na redução da frequência dessas doenças nas"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "próximas décadas. Nesse cenário, a APS, que possui as unidades de saúde mais próximas"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "da população, tem maiores chances de observar e avaliar esses casos presentes no"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "seu território, a partir da Vigilância em Saúde, gerando indicadores importantes para o"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "acompanhamento e o planejamento de ações em nível individual, familiar e comunitário"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "(REIS; RODRIGUEZ; RODRIGUES, 2021). As ações de promoção da saúde e o cuidado"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "longitudinal baseado no vínculo, presentes no cotidiano de prática das equipes de APS,"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "também são estratégias relevantes para a prevenção e enfrentamento dos agravos"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "relacionados a essas doenças. Quando pertinente, devem ser acionados níveis de atenção"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "especializada, a fim de contribuir para um cuidado integral, minimizando complicações"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "evitáveis e custos atribuíveis dessas doenças para o SUS."
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 14"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "edúaS"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "ad"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "oirétsiniM"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "od"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "arielisarB"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "oãcalupoP"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "arap"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "ratnemilA"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": "aiuG"
+    },
+    {
+        "pagina": 15,
+        "tipo": "texto",
+        "conteudo": ":megamI"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "ORIENTAÇÃO ALIMENTAR"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "INDIVIDUAL A PESSOAS COM"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "OBESIDADE, HIPERTENSÃO E"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "DIABETES MELLITUS"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "Na APS, as consultas individuais proporcionam o atendimento mais centrado e"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "direcionado ao usuário, considerando suas necessidades e sua inserção sociocultural."
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "Tal prática direciona o desenvolvimento de ações de cuidado de forma singularizada,"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "que auxilia as pessoas a desenvolverem os conhecimentos e a confiança necessária"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "para gerir decisões sobre sua própria saúde (BRASIL, 2017). Os profissionais atuantes"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "na APS protagonizam as ações de fortalecimento do cuidado integral de pessoas com"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "DCNT, pois o desenvolvimento de suas atividades tem como fundamentos a realização de"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "ações de promoção, proteção e recuperação da saúde, prevenção de doenças e agravos,"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "incorporando também ações de vigilância em saúde (BRASIL, 2017)."
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "Diante do cenário epidemiológico do país, onde mais da metade dos adultos"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "brasileiros apresenta excesso de peso e ocorre o crescimento nas prevalências de"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "hipertensão arterial e diabetes mellitus, torna-se prioritária a abordagem de temas, tais"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "como a alimentação saudável, a prática de atividade física e o enfrentamento, tanto"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "do uso do tabaco e seus derivados, quanto do uso abusivo de álcool (BRASIL, 2017)."
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "A alimentação não saudável é uma realidade que precisa ser abordada na APS, pois é"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "um dos principais fatores de risco relacionados à carga global de doenças no mundo."
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "No Brasil, em 2015, esse foi o fator de risco que mais contribuiu para os anos de vida"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "perdidos, sendo superior, inclusive, ao uso de álcool, drogas, tabagismo e inatividade"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "física (MALTA et al., 2017)."
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "Nesse contexto, os atendimentos individuais são momentos oportunos para"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "realizar orientações alimentares. Visto que na APS são os médicos e os enfermeiros"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "das equipes que realizam grande parte do acompanhamento das pessoas com DCNT,"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "a orientação alimentar individual deve fazer parte da rotina desses profissionais, assim"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "como de todos os outros que compõem as equipes (BRASIL, 2014b)."
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 15"
+    },
+    {
+        "pagina": 16,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "PRÁTICAS ADOTADAS PARA ORIENTAÇÃO ALIMENTAR NO SUS INVESTIGADAS POR"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "MEIO DE CONSULTA A PROFISSIONAIS DE SAÚDE"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Para apoiar a elaboração dos Protocolos aqui apresentados foi realizada uma"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "investigação com profissionais de saúde de nível superior, com exceção do nutricionista,"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "que trabalhavam na assistência à população adulta com obesidade, hipertensão arterial"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "e diabetes mellitus no SUS. O seu objetivo principal foi identificar se, em suas práticas"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "clínicas, eram realizadas orientações em relação à alimentação e quais os seus conteúdos."
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "A temática do questionário utilizado, assim como a sua metodologia de aplicação foram"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "avaliados e aprovados pelo Comitê de Ética em Pesquisas com Seres Humanos da"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Faculdade de Ciências da Saúde, Universidade de Brasília (CAAE 41310920.6.0000.0030)."
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Os resultados que seguem apresentados foram obtidos entre março e maio de"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "2021 e referem-se às respostas de 529 profissionais de saúde, atuantes em todas as"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "regiões e Unidades Federativas do país, que afirmaram acompanhar pessoas adultas"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "com obesidade, hipertensão arterial e diabetes mellitus. Destaca-se que 69,5% dos"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "profissionais trabalhavam somente na rede pública e os demais compartilhavam suas"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "atividades entre o SUS e a rede privada. Os gráficos seguintes apresentam um pouco mais"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "do perfil dos profissionais participantes. A pergunta sobre o ambiente de trabalho pôde"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "ser respondida por meio de mais de uma opção para atender àqueles que possuíam mais"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "de uma vinculação."
+    },
+    {
+        "pagina": 17,
+        "tipo": "grafico",
+        "conteudo": "Gráfico 1 –Formação dos profissionais de saúde"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Terapeuta ocupacional 0,6"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Farmacêutico 2,1"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Fonoaudiólogo 2,3"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Assistente Social 2,8"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Psicólogo 6,0"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Fisioterapeuta 6,2"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Cirurgião Dentista 6,4"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Profissional de Educação Física 6,8"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Médico 18,0"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Enfermeiro 48,8"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "Fonte: elaboração própria."
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 16"
+    },
+    {
+        "pagina": 17,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 18,
+        "tipo": "grafico",
+        "conteudo": "Gráfico 2 – Ambiente de trabalho"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Ambulatórios institucionais 5,7"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Atenção Domiciliar 7,4"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Ambulatórios públicos 7,9"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Consultórios privados 10,8"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Hospitais 15,3"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Progama de Saúde da Família 33,5"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Unidade Básica de Saúde 54,1"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Outros 13,6"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Fonte: elaboração própria."
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Quase a totalidade de profissionais"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "(99,4%) consideraram que durante o"
+    },
+    {
+        "pagina": 18,
+        "tipo": "grafico",
+        "conteudo": "Gráfico 3 – Região"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "atendimento às pessoas adultas com"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "obesidade, hipertensão arterial e diabetes Norte 4,6"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "mellitus é necessário realizar orientações sobre Sul 12,1"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "alimentação, todavia, somente cerca de 15%"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Nordeste 17,5"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "sentiam-se totalmente qualificados para realizá-"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Centro-Oeste 24,6"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "las. Os gráficos a seguir apontam a frequência"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "de profissionais que realizavam orientações Sudeste 41,2"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "alimentares, além das principais dificuldades"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "apontadas para sua realização (os profissionais Fonte: elaboração própria."
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "puderam indicar mais de um item)."
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Entre os profissionais que declararam"
+    },
+    {
+        "pagina": 18,
+        "tipo": "grafico",
+        "conteudo": "realizar as orientações alimentares em seus Gráfico 4 –Sexo"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "atendimentos, o Guia Alimentar para a"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "População Brasileira foi o material de apoio Masculino 18,3"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "mais citado, seguido pelos Cadernos de"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Feminino 81,7"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Atenção Básica. Apesar desse fato, o Guia"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Alimentar foi mencionado por apenas 30,5%"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "dos participantes, reforçando a necessidade da"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "Fonte: elaboração própria."
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "ampliação de sua divulgação."
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 17"
+    },
+    {
+        "pagina": 18,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 18,
+        "tipo": "tabela",
+        "indice_tabela": 1,
+        "conteudo_dict": [
+            {
+                "": ""
+            },
+            {
+                "": ""
+            },
+            {
+                "": ""
+            },
+            {
+                "": ""
+            },
+            {
+                "": ""
+            },
+            {
+                "": ""
+            },
+            {
+                "": ""
+            },
+            {
+                "": ""
+            },
+            {
+                "": ""
+            }
+        ],
+        "conteudo_texto": " |  |  |  |  |  |  |  | "
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Em relação àqueles"
+    },
+    {
+        "pagina": 19,
+        "tipo": "grafico",
+        "conteudo": "Gráfico 5 – Principais dificuldades para"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "realizar orientações alimentares profissionais que consultaram,"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "principalmente, as diretrizes"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "das sociedades ou associações"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Os materiais atuais não se"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "7,2"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "aplicam à minha realidade"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "médicas, a mais acessada foi a de"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Hipertensão e posteriormente a de"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Não considero que seja"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "atribuição da minha 12,2 Diabetes. Houve também, relatos"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "formação"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "de orientações fundamentadas"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Falta de tempo durante as"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "em materiais veiculados na mídia"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "consultas para abordar o 25,9"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "tema"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "(internet, jornais ou revistas) ou em"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "experiências familiares, pessoais"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Falta de capacitação em"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "48,8"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "serviço ou profissionais de sucesso."
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Ausência de protocolos"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "rápidos e confiáveis sobre o 59,5"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "assunto A partir desses resultados,"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "percebe-se que os Protocolos de"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Não tenho dificuldades 8,3 Uso que compõem essa série,"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "uma vez que são materiais curtos,"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Fonte: elaboração própria."
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "de rápida aplicação e capazes de"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "evidenciar os principais pontos a"
+    },
+    {
+        "pagina": 19,
+        "tipo": "grafico",
+        "conteudo": "Gráfico 6 –Orientações alimentares"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "durante o atendimento serem abordados na orientação"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "alimentar, têm o potencial de"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Não realizo nenhuma mitigar a lacuna de instrumentos"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "1,7"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "orientação"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "existentes e qualificar as"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "orientações nutricionais realizadas"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Não realizo orientações e"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "sugiro procurar um 3,2 aos usuários da APS. Além disso,"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "nutricionista"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "o acesso a um material de fácil"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Não realizo orientações e"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "utilização, construído a partir"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "faço encaminhamento 3,4"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "formal ao nutricionista de evidências científicas poderá"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "também facilitar a rotina e a"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Realizo todas as"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "orientações que 22,5"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "melhora da adesão dos usuários"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "considero necessárias"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "às recomendações alimentares,"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Realizo orientações"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "básicas e faço adaptadas às necessidades"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "32,9"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "encaminhamento formal"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "ao nutricionista específicas de suas doenças."
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Realizo orientações"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "básicas e sugiro procurar 3366,3,3"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "um nutricionista"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "Fonte: elaboração própria."
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 18"
+    },
+    {
+        "pagina": 19,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 19,
+        "tipo": "tabela",
+        "indice_tabela": 1,
+        "conteudo_dict": [
+            {
+                "Gráfico 5 – Principais dificuldades para realizar orientações alimentares": "Os materiais atuais não se 7,2 aplicam à minha realidade Não considero que seja atribuição da minha 12,2 formação Falta de tempo durante as consultas para abordar o 25,9 tema Falta de capacitação em 48,8 serviço Ausência de protocolos rápidos e confiáveis sobre o 59,5 assunto Não tenho dificuldades 8,3 Fonte: elaboração própria."
+            },
+            {
+                "Gráfico 5 – Principais dificuldades para realizar orientações alimentares": "Gráfico 6 –Orientações alimentares durante o atendimento"
+            }
+        ],
+        "conteudo_texto": "Os materiais atuais não se 7,2 aplicam à minha realidade Não considero que seja atribuição da minha 12,2 formação Falta de tempo durante as consultas para abordar o 25,9 tema Falta de capacitação em 48,8 serviço Ausência de protocolos rápidos e confiáveis sobre o 59,5 assunto Não tenho dificuldades 8,3 Fonte: elaboração própria. | Gráfico 6 –Orientações alimentares durante o atendimento"
+    },
+    {
+        "pagina": 19,
+        "tipo": "tabela",
+        "indice_tabela": 2,
+        "conteudo_dict": [
+            {
+                "": "3366,3,3"
+            },
+            {
+                "": ""
+            }
+        ],
+        "conteudo_texto": "3366,3,3 | "
+    },
+    {
+        "pagina": 20,
+        "tipo": "grafico",
+        "conteudo": "Gráfico 7 –Principais materiais utilizados para embasar as orientações"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Protocolos internos da instituição em que trabalho 3,3"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Outros materiais ou experiências 3,7"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Materiais veiculados na mídia: internet, jornais ou revistas 4,9"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Artigos científicos ou diretrizes internacionais 7,0"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Diretrizes de sociedades médicas brasileiras 7,6"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Minhas experiências profissionais ou pessoais de sucesso 13,2"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Cadernos de Atenção Básica –CAB (Ministério da Saúde) 29,7"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Guia Alimentar para a População Brasileira (Ministério da Saúde) 30,5"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Fonte: elaboração própria."
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "TECNOLOGIAS DE APOIO E EVIDÊNCIAS CIENTÍFICAS SOBRE ALIMENTAÇÃO E TRATAMENTO"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "DE PESSOAS COM OBESIDADE, HIPERTENSÃO ARTERIAL E DIABETES MELLITUS"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Para abarcar as especificidades em torno da alimentação em cada doença abordada"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "nessa coleção, foram selecionadas tecnologias de apoio complementares à tecnologia"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "principal, o Guia Alimentar. Essa seleção foi realizada a partir de um levantamento das"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "principais referências e diretrizes atuais para a orientação alimentar de pessoas com"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "obesidade, hipertensão arterial e diabetes mellitus, sendo incorporados: Protocolo Clínico e"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Diretrizes Terapêuticas de Sobrepeso e Obesidade em Adultos (2020), Diretrizes Brasileiras"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "de Hipertensão Arterial (2020) e Diretrizes da Sociedade Brasileira de Diabetes (2019-2020)."
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "As recomendações alimentares para pessoas com obesidade, hipertensão arterial"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "e diabetes mellitus têm em sua base a alimentação saudável caracterizada pelo consumo"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "predominante de alimentos in natura e minimamente processados e de origem vegetal."
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Em associação, estão recomendações e pontos específicos a serem observados com a"
+    },
+    {
+        "pagina": 20,
+        "tipo": "tabela",
+        "conteudo": "finalidade de atender particularidades relacionadas a cada doença. Veja no Quadro 4 um"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "breve resumo de recomendações alimentares específicas no contexto dessas doenças,"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "que vão além das recomendações gerais abordadas pelo Guia Alimentar."
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "Com o intuito de verificar a existência de evidências científicas recentes que"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "podem não ter sido consideradas nas tecnologias de apoio selecionadas, foi realizada a"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 19"
+    },
+    {
+        "pagina": 20,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "pedido do Ministério da Saúde uma síntese de evidências do tipo Resposta Rápida1 para"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "cada doença. De modo geral, os resultados observados nessas sínteses estão de acordo"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "com as recomendações apresentadas nas tecnologias selecionadas, ou seja, não foram"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "identificadas novas evidências científicas relevantes que pudessem alterar o escopo das"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "recomendações. Os documentos referentes a essas sínteses de evidências podem ser"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "acessados por meio dos links apresentados no Box."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Síntese de evidências referente à obesidade"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Link: https://www.veredas.org/publicacoes/#640"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Síntese de evidências referente à hipertensão"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Link: https://www.veredas.org/publicacoes/#646"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Síntese de evidências referente ao diabetes mellitus"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Link:https://www.veredas.org/publicacoes/#647"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "A síntese de evidências do tipo Resposta Rápida consiste na adaptação de algumas etapas recomendadas para a elaboração"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "de revisões sistemáticas, visando produzir uma síntese das melhores evidências disponíveis em tempo hábil para atender"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "demandas específicas."
+    },
+    {
+        "pagina": 21,
+        "tipo": "tabela",
+        "conteudo": "Quadro 4 – Recomendações alimentares, além das abordadas pelo Guia Alimentar,"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "para pessoas com obesidade, hipertensão arterial e diabetes mellitus, de acordo com"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "as tecnologias de apoio selecionadas para cada doença."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Doenças Tecnologia de apoio Recomendações alimentares"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "• Reduzir consumo energético a partir"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "de melhorias qualitativas na dieta,"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "principalmente em relação ao consumo"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Protocolo Clínico e"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "de alimentos ultraprocessados."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Diretrizes Terapêuticas"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "• Substituir bebidas com adição de açúcar"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Obesidade de Sobrepeso e"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "por água."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Obesidade em Adultos"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "• Não substituir açúcar por adoçante."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "(2020)"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "• Incentivar a ingestão de alimentos em"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "sua forma natural, sem a adição de"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "adoçantes (naturais ou artificiais)."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "• Adotar padrão alimentar DASH*"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Diretrizes Brasileiras • Controlar a ingestão de sódio."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "Hipertensão"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "de Hipertensão Arterial • Aumentar a ingestão de potássio."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "arterial"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "(2020) • Consumir laticínios com baixo teor de"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "gorduras."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "continua..."
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "MINIMSTINÉRISIOTÉ DRAIO S DAÚA DSEAÚDE 2200"
+    },
+    {
+        "pagina": 21,
+        "tipo": "texto",
+        "conteudo": "UNIVUENRSIVIDERASDIED ADDE EB DRAE SBÍLRIAASÍLIA"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "conclusão..."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "• Adotar padrão alimentar"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "mediterrâneo** e DASH."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "• Valorizar a qualidade geral dos"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "alimentos é mais importante que a"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "restrição de algum grupo de nutrientes."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "• Limitar a ingestão de alimentos ricos"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "em gordura saturada e sal/açúcar de"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "adição."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "• Dar preferência aos alimentos"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "grelhados, assados, cozidos no vapor"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "ou crus."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "Diretrizes da Sociedade • Não é necessário excluir totalmente"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "Diabetes Mellitus Brasileira de Diabetes: a sacarose e alimentos contendo"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "2019-2020 sacarose."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "• Evitar o consumo de açúcares ocultos"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "em alimentos industrializados"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "(bebidas açucaradas e alimentos"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "ultraprocessados)."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "• Não adotar dietas muito baixas"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "em carboidratos (low carb), pois o"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "impacto desse tipo de dieta ainda é"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "inconclusivo."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "• Ingerir fibras dietéticas (frutas,"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "verduras, legumes, cereais e grãos"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "integrais, leguminosas)."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "Fonte: BRASIL, 2020a; BARROSO et al., 2021; SBD, 2019."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "*Padrão alimentar DASH (Dietary Approaches to Stop Hypertension)"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "Predominância de alimentos de origem vegetal in natura e minimamente processados"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "(frutas, legumes, verduras, leguminosas, cereais integrais e oleaginosas) com"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "consumo de laticínios com baixo nível de gordura, aves e peixes e consumo restrito"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "de carnes vermelhas e processadas, bebidas adoçadas e sódio (SACKS et al., 1995)."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "**Padrão alimentar mediterrânico"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "Predominância de alimentos de origem vegetal in natura e minimamente processados,"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "alta ingestão de azeite de oliva, consumo baixo a moderado de peixes, aves, ovos,"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "laticínios e vinho tinto e consumo baixo de carnes vermelhas e doces (WILLETT et al.,"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "1995; DAVIS et al., 2015)."
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 21"
+    },
+    {
+        "pagina": 22,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "POR QUE OS ALIMENTOS ULTRAPROCESSADOS DEVEM SER EVITADOS"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "Devido a sua formulação, alimentos ultraprocessados são nutricionalmente"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "desbalanceados. Alimentos in natura ou minimamente processados comumente não"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "estão presentes ou representam pequena proporção dos ingredientes desses produtos."
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "Geralmente, a maioria desses alimentos é consumida, ao longo do dia, substituindo"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "preparações culinárias, frutas, leite e água, o que limita o consumo de alimentos in natura"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "ou minimamente processados e consequentemente reduz a qualidade da alimentação"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "(BRASIL, 2014a)."
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "O consumo elevado de alimentos ultraprocessados está associado ao maior risco"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "de ocorrência de DCNT, tais como obesidade, diabetes tipo 2, síndrome metabólica,"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "doença cardiovascular e câncer (BAKER et al., 2020; ELIZABETH et al., 2020; JUUL et al.,"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "2021; PAGLIAI et al., 2021). O impacto negativo do consumo regular desses alimentos"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "sobre a saúde está além do perfil de nutrientes. Um exemplo dessa relação danosa foi"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "observado em um estudo de intervenção realizado nos Estados Unidos e publicado no ano"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "2019, onde adultos foram randomizados e, durante 2 semanas, um dos grupos consumiu"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "apenas alimentos ultraprocessados e, o outro, alimentos não processados. As refeições"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "foram padronizadas em relação às mesmas quantidades de calorias, carboidratos,"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "lipídios, sódio e fibra, sendo disponibilizados lanches característicos de cada padrão e"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "água à vontade durante o dia. Observou-se que, no primeiro grupo, a ingestão da dieta"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "à base de alimentos ultraprocessados, levou-o ao maior consumo de calorias e ganho de"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "cerca de 900g, enquanto no outro, verificou-se perda de peso em quantidade semelhante"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "(HALL et al., 2019)."
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "A estrutura dos alimentos parece desempenhar papel central em relação ao impacto"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "deles sobre a saúde das pessoas. O seu processamento gera significativas mudanças em sua"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "matriz, o que pode resultar em impactos diferentes sobre a saúde, quando comparados com"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "alimentos in natura ou minimamente processados com composição nutricional semelhante."
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "A grande degradação da matriz alimentar original, que ocorre em alimentos ultraprocessados"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "parece promover menor saciedade, maior resposta glicêmica e impactos negativos sobre a"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "composição, além do metabolismo da microbiota intestinal (FARDET, 2016; JUUL; VAIDEAN;"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "PAREKH, 2021)."
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "Outros atributos dos alimentos ultraprocessados podem também ser prejudiciais"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "à saúde, tais como a presença de determinados aditivos alimentares, a contaminação"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "com agentes cancerígenos formados durante o processamento em altas temperaturas"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 22"
+    },
+    {
+        "pagina": 23,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "e os componentes químicos presentes em suas embalagens. Até o momento, nenhum"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "estudo mostrou associação entre o consumo desse tipo de alimentos e benefícios para a"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "saúde (BAKER et al., 2020; ELIZABETH et al., 2020; JUUL; VAIDEAN; PAREKH, 2021)."
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "Além de todos esses efeitos negativos sobre a saúde, o consumo de alimentos"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "ultraprocessados e suas formas de produção, distribuição e comercialização afetam de"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "modo desfavorável a cultura, a vida social e o meio ambiente. Nesse sentido, recomenda-"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "se evitar o seu consumo (BRASIL, 2014a)."
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "MARCADORES DE CONSUMO ALIMENTAR NA APS"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "Uma etapa essencial para garantir a abordagem adequada sobre alimentação é"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "a avaliação da prática alimentar, visando inferir sobre as escolhas mais frequentes e os"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "padrões saudáveis e não saudáveis adotados pelas pessoas acompanhadas. Realizar a"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "avaliação do consumo de alimentos na rotina da APS é uma ação estratégica de cuidado"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "em saúde, especialmente no acompanhamento individual, que potencializa as demais"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "ações de prevenção e de tratamento realizadas no cotidiano dos serviços."
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "O Sistema de Vigilância Alimentar e Nutricional"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "(SISVAN) e o e-SUS APS disponibilizam os formulários"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "de marcadores de consumo alimentar, permitindo a"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "inferência sobre os seus padrões na população brasileira."
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "Os formulários avaliam os alimentos consumidos no"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "dia anterior, o que ameniza o esquecimento em relação"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "ao que foi ingerido. Por ser um instrumento simples,"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "rápido e prático qualquer profissional da equipe de"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "APS pode utilizar e realizar a avaliação de pessoas de"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "qualquer idade, evento ou fase do curso da vida, a partir"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "das informações obtidas (BRASIL, 2015). O Ministério da"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "Saúde publicou, em 2015, um manual instrutivo sobre a"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "utilização dos formulários de marcadores, que pode ser"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "acessado clicando na figura ao lado."
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "A utilização do formulário de marcadores deve seguir as recomendações"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "padronizadas pelo Ministério da Saúde, disponíveis na página da estratégia e-SUS"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "(https:// aps.saude.gov.br/ape/esus/documentos/nt). O registro deve ser feito em"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 23"
+    },
+    {
+        "pagina": 24,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "instrumentos das equipes de APS e dos usuários (como prontuários, formulários de"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "informação vigentes e cadernetas de saúde), bem como, no sistema de informação"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "vigente (e-SUS APS e SISVAN)”. Após o registro, recomenda-se que gestores e equipes"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "façam o monitoramento da situação alimentar da população por meio dos relatórios"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "públicos do SISVAN (http://sisaps.saude.gov.br/sisvan/relatoriopublico/index)."
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "Nos protocolos aqui abordados, o formulário foi incluído a fim de direcionar as"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "recomendações alimentares adequadas e saudáveis, segundo os pontos observados na"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "avaliação do consumo alimentar do usuário."
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "ELABORAÇÃO DOS PROTOCOLOS DE USO DO GUIA ALIMENTAR PARA A POPULAÇÃO"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "BRASILEIRA NA ORIENTAÇÃO ALIMENTAR DE PESSOAS ADULTAS COM OBESIDADE,"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "HIPERTENSÃO ARTERIAL E DIABETES MELLITUS"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "Foram elaborados quatro volumes para essa série. Esse primeiro aborda o"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "referencial teórico e a base metodológica utilizada no processo de elaboração. Os três"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "volumes seguintes são os protocolos destinados ao cuidado de pessoas com obesidade,"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "hipertensão arterial e diabetes mellitus, contendo orientações alimentares que integram"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "as características e especificidades de cada uma dessas DCNT às recomendações"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "presentes no Guia Alimentar. Além disso, foi elaborado o material gráfico, passível de"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "ser impresso, com as principais mensagens orientativas que poderá ser entregue aos"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "usuários no momento do atendimento, apoiando o cuidado individual dessa população"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "acompanhada na APS."
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "Conforme mencionado, o formulário de avaliação de marcadores do consumo"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "alimentar será utilizado como ferramenta para avaliação do consumo alimentar. Na"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "sequência, para auxiliar os profissionais na conduta e no direcionamento das orientações"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "alimentares, foi incluído em cada um dos três protocolos um fluxograma orientativo,"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "acompanhado de instruções específicas acerca de cada ponto."
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 24"
+    },
+    {
+        "pagina": 25,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "O caminho percorrido para a elaboração dos presentes Protocolos de Uso está"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "apresentado na Figura 1."
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "Figura 1 – Etapas desenvolvidas para elaboração dos Protocolos de Uso do Guia Alimentar"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "para a População Adulta Brasileira com obesidade, hipertensão arterial e diabetes."
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "• Síntese de evidências"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "• Identificação de"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "tecnologia complementar"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "ao Guia"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "• Consulta a"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "profissionais sobre"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "suas práticas"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "Formação da equipe"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "executora e análise de"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "conflios de interesse"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "Levantamento da demanda Elaboração de bases"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "pelo Ministério da Saúde metodológicas"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "Disponibilização Elaboração dos"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "dos materiais Protocolos de Uso e"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "aos profissionais dos materias gráficos"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "• Validação de Conteúdo"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "(painel de especialistas)"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "• Validação Aparente"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "(profissionais da"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "Revisão textual, Atenção Primária)"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "formatação e editoracão"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "• Revisão dos materiais"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "Fonte: elaboração própria."
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 25"
+    },
+    {
+        "pagina": 26,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "Os processos de Validação de Conteúdo e de Validação Aparente foram realizados"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "por meio de painel de especialistas e parecer de profissionais da APS, respectivamente"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "(RUBIO et al., 2003; GABE, 2018; STREINER; NORMAN; CAIRNEY, 2015). Essas validações"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "tiveram como finalidade verificar a clareza e a pertinência dos instrumentos produzidos,"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "a fim de que os produtos finais possam ser compreendidos pelos profissionais atuantes"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "na APS, detendo conteúdo útil e adequado para ser aplicado na sua prática clínica."
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "Espera-se, que a utilização dos protocolos nos serviços de saúde contribua"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "com o aperfeiçoamento do cuidado com os usuários, além de que suas informações"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "repercutam positivamente na alimentação, melhorando a qualidade das escolhas. O"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "uso dos protocolos no cotidiano dos serviços possibilitará a aproximação do profissional"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "de saúde com mensagens científicas e diretrizes sobre alimentação, considerando"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "as necessidades, motivações, preferências e possibilidades do usuário. Sendo assim,"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "convidamos você a integrar o grupo de profissionais de saúde que, por meio do uso"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "dos Protocolos, contribuirá com a promoção da alimentação adequada e saudável como"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "estratégia para a melhoria das condições de saúde da população brasileira."
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "Imagem: Guia Alimentar para Populacão Brasileira do Ministério da Saúde"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 26"
+    },
+    {
+        "pagina": 27,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "REFERÊNCIAS"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BAKER, P. et al. Ultra-processed foods and the nutrition transition: Global, regional"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "and national trends, food systems transformations and political economy drivers."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Obes Rev, v. 21, n. 12, p. e13126, 2020."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BARROSO, W. K. S. et al. Diretrizes Brasileiras de Hipertensão Arterial – 2020. Arq."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Bras. Cardiol., v. 116, n. 3, p. 516-658, 2021."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Economia. Instituto Brasileiro de Geografia e Estatística."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Pesquisa nacional de saúde: 2019: percepção do estado de saúde, estilos de vida,"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "doenças crônicas e saúde bucal: Brasil e grandes regiões. Rio de Janeiro: IBGE, 2020b."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Economia. Instituto Brasileiro de Geografia e Estatística."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Pesquisa nacional de saúde: 2019: atenção primária à saúde e informações"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "antropométricas: Brasil. Rio de Janeiro: IBGE, 2020c."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Saúde. Gabinete do Ministro. Portaria nº 2436, de 21 de"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "setembro de 2017. Aprova a Política Nacional de Atenção Básica, estabelecendo a"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "revisão de diretrizes para a organização da Atenção Básica, no âmbito do Sistema"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Único de Saúde (SUS). Disponível em: https://bvsms.saude.gov.br/bvs/saudelegis/"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "gm/2017/prt2436_22_09_2017.html. Acesso em: 22 mar. 2021."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "de Atenção Básica. Orientações para avaliação de marcadores de consumo"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "alimentar na atenção básica. Brasília: Ministério da Saúde, 2015."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Atenção Básica. Guia alimentar para a população brasileira. 2. ed. Brasília:"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Ministério da Saúde, 2014a."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Atenção Básica. Cadernos de Atenção Básica nº 35. Estratégias para o cuidado da"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "pessoa com doença crônica. Brasília: Ministério da Saúde, 2014b."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Atenção Básica. Política Nacional de Alimentação e Nutrição. Brasília: Ministério"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "da Saúde, 2013."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Saúde. Secretaria de Ciência, Tecnologia, Inovação e"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Insumos Estratégicos. Portaria SCTIE/MS Nº 53, de 11 de novembro de 2020."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Aprova o Protocolo Clínico e Diretrizes Terapêuticas de Sobrepeso e Obesidade"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "em Adultos. Brasília: MS, 2020a. Disponível em: http://conitec.gov.br/images/"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Protocolos/20201113_PCDT_Sobrepeso_e_Obesidade_em_Adultos_29_10_2020_"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "Final.pdf. Acesso em: 16 fev. 2021."
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 27"
+    },
+    {
+        "pagina": 28,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Análise de Situação de Saúde. Plano de ações estratégicas para o enfrentamento"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "das doenças crônicas não transmissíveis (DCNT) no Brasil 2011-2022. Brasília:"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Ministério da Saúde, 2011."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Poder Legislativo. Emenda Constitucional nº 64, de 4 de fevereiro de 2010."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Altera o art. 6º da Constituição Federal, para introduzir a alimentação como direito social."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Brasília, DF: Senado Federal, 2010. Disponível em: http://www.planalto.gov.br/ccivil_03/"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "constituicao/emendas/emc/emc64.htm. Acesso em: 22 mar. 2021."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Presidência da República. Lei nº 8.080, de 19 de setembro de 1990."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Dispõe sobre as condições para promoção, proteção e recuperação da saúde,"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "a organização e o funcionamento dos serviços correspondentes e dá outras"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "providências. Brasília, DF: Presidência da República, 1990. Disponível em: http://"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "www.planalto.gov.br/ccivil_03/leis/l8080.htm. Acesso em: 07 abr. 2021."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "BRASIL. Presidência da República. Lei nº 8.234, de 17 de setembro de 1991."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Regulamenta a profissão de Nutricionista e determina outras providências. Brasília,"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "DF: Presidência da República, 1991. Disponível em: http://www.planalto.gov.br/"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "ccivil_03/leis/1989_1994/L8234.htm. Acesso em: 12 abr. 2021."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "COMISSÃO NACIONAL DE INCORPORAÇÃO DE TECNOLOGIAS NO SISTEMA"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "ÚNICO DE SAÚDE (CONITEC). Protocolos e Diretrizes. Conitec.gov.br, [Brasília],"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "07 mar. 2016, 11:45. Disponível em: http://conitec.gov.br/index.php/protocolos-e-"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "diretrizes. Acesso em: 07 abr. 2021. Acesso em: 31 mar. 2022."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "DAVIS, C. et al. Definition of the Mediterranean Diet: A Literature Review. Nutrients,"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "v. 7, n. 11, p. 9139-9153, 2015."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "ELIZABETH, L. et al. Ultra-Processed Foods and Health Outcomes: A Narrative"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Review. Nutrients, v. 12, n. 7, 2020."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "FARDET, A. Minimally processed foods are more satiating and less hyperglycemic"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "than ultra-processed foods: a preliminary study with 98 ready-to-eat foods. Food"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Funct, v. 7, n.5, p. 2338-2346, 2016."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS (FAO) et"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "al. The State of Food Security and Nutrition in the World 2020. Transforming food"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "systems for affordable healthy diets. Rome, FAO, 2020. Disponível em: https://doi."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "org/10.4060/ca9692en. Acesso em: 20 abr. 2021."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "GABE, K. T. Desenvolvimento e validação de uma escala autoaplicável para"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "avaliação da alimentação segundo as recomendações do Guia Alimentar para"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "a População Brasileira. São Paulo: Universidade de São Paulo; 2018."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "HALL, K. D. et al. Ultra-Processed Diets Cause Excess Calorie Intake and Weight"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake. Cell"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Metab, v. 30, n. 1, p. 226, 2019."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "JUUL, F. et al. Ultra-Processed Foods and Incident Cardiovascular Disease in the"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "Framingham Offspring Study. J Am Coll Cardiol, v. 77, n. 12, p. 1520-1531, 2021."
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 28"
+    },
+    {
+        "pagina": 29,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "JUUL, F.; VAIDEAN, G.; PAREKH, N. Ultra-processed Foods and Cardiovascular"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "Diseases: Potential Mechanisms of Action. [s.l]: Adv Nutr, 2021."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "MALTA, D. C. et al. Fatores de risco relacionados à carga global de doença do Brasil"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "e Unidades Federadas, 2015. Rev Bras Epidemiol., v. 20, supl. 1, p. 217-232, 2017."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "MONTEIRO, C. A. et al. Ultra-processed foods: what they are and how to identify"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "them. Public. Health Nutr., v. 22, n. 5, p. 936-941, 2019."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "NCD RISK FACTOR COLLABORATION (NCD-RISC). Worldwide trends in"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "blood pressure from 1975 to 2015: a pooled analysis of 1479 population-based"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "measurement studies with 19·1 million participants. Lancet, v. 389, n. 10064, p. 37-"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "55, 2017."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "NILSON, E. A. F. et al. Custos atribuíveis a obesidade, hipertensão e diabetes no"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "Sistema Único de Saúde, Brasil, 2018. Rev. Panam. Salud. Publica, v. 44, n. 32, 2020."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "PAGLIAI, G. et al. Consumption of ultraprocessed foods and health status: a"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "systematic review and meta-analysis. Br. J. Nutr., v. 125, n. 3, p. 308-318, 2021."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "REIS, E. C.; RODRIGUEZ, L. S.; RODRIGUES, P. A. F. Atenção Básica: a linha"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "que costura o cuidado ao sujeito com obesidade. In: SILVA, A.C.F; MOTTA, A.L.B;"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "CASEMIRO, J.P.C.(org.). Alimentação e Nutrição na Atenção Básica: Reflexões"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "cotidianas e contribuições para práticas do cuidado. Rio de Janeiro: EdUERJ, 2021."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "RUBIO, D. M. et al. Objectifying content validity: Conducting a content validity study"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "in social work research. Soc. Work. Res., v. 27, n. 2, p. 94-104, 2003."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "SACKS, F. M. et al. Rationale and design of the Dietary Approaches to Stop"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "Hypertension trial (DASH). A multicenter controlled-feeding study of dietary patterns"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "to lower blood pressure. Ann Epidemiol, v. 5, n. 2, p. 108-118, 1995."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "SAEEDI, P. et al. Global and regional diabetes prevalence estimates for 2019 and"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "projections for 2030 and 2045: Results from the International Diabetes Federation"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "Diabetes Atlas, 9. Diabetes Res. Clin. Pract., v. 157, n. 107843, 2019."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "SOCIEDADE BRASILEIRA DE DIABETES (SBD). Diretrizes da Sociedade"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "Brasileira de Diabetes: 2019-2020. São Paulo: Clannad; 2019."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "STREINER, D. L., NORMAN, G. R., CAIRNEY, J. Health Measurement Scales: A"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "practical guide to their development and use. 5. ed. v. 1. Oxford: Oxford University"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "Press; 2015."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "WERNECK, M. A. F.; FARIA, H. P.; CAMPOS, K. F. C. Protocolos de cuidado à"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "saúde e de organização do serviço. Belo Horizonte: Nescon/UFMG; Coopmed, 2009."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "Disponível em: https://www.nescon.medicina.ufmg.br/biblioteca/imagem/1750.pdf."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "Acesso em: 07 abr. 2021."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "WILLETT, W. C. et al. Mediterranean diet pyramid: a cultural model for healthy"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "eating. Am. J. Clin. Nutr., v. 61, n. 6 Suppl, p. 1402S-1406S, 1995."
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "PROTOCOLOS DE USO DO GUIA ALIMENTAR 29"
+    },
+    {
+        "pagina": 30,
+        "tipo": "texto",
+        "conteudo": "PARA A POPULAÇÃO BRASILEIRA – VOLUME 1"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "Conte-nos o que pensa sobre esta publicação. Clique aqui e responda a pesquisa."
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 30"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "edúaS"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "ad"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "oirétsiniM"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "od"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "arielisarB"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "oãcalupoP"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "arap"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "ratnemilA"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "aiuG"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": ":megamI"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 30"
+    },
+    {
+        "pagina": 31,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    },
+    {
+        "pagina": 32,
+        "tipo": "texto",
+        "conteudo": "Biblioteca Virtual em Saúde do Ministério da Saúde"
+    },
+    {
+        "pagina": 32,
+        "tipo": "texto",
+        "conteudo": "bvsms.saude.gov.br"
+    },
+    {
+        "pagina": 32,
+        "tipo": "texto",
+        "conteudo": "MINISTÉRIO DA SAÚDE 31"
+    },
+    {
+        "pagina": 32,
+        "tipo": "texto",
+        "conteudo": "UNIVERSIDADE DE BRASÍLIA"
+    }
+]
