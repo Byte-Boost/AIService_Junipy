@@ -1,3 +1,25 @@
+import os
+import logging
+from fastapi import FastAPI
+import uvicorn
+
+from app.api.process_messages import router as process_router
+
+logger = logging.getLogger("uvicorn.error")
+
+
+def create_app() -> FastAPI:
+    app = FastAPI(title="Junipy AI Service")
+    app.include_router(process_router)
+    return app
+
+
+app = create_app()
+
+
+if __name__ == "__main__":
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run("app.main:app", host="0.0.0.0", port=port, log_level="info")
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from ai.models.model_connection import MedGemmaClient
