@@ -1,7 +1,9 @@
 from google.adk.agents import LlmAgent
 from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
+from google.genai import types
 from dotenv import load_dotenv
+from google.adk.tools import FunctionTool
 import chromadb
 
 load_dotenv()
@@ -11,7 +13,8 @@ client = chromadb.PersistentClient(path="../../docs/my_db")
 nutrition = client.get_or_create_collection(name="nutrition")
 comorbidity = client.get_or_create_collection(name="comorbidity")
 
-def search_nutrition_tool(query: str):
+def search_nutrition(query: str):
+    """Search for nutrition-related information."""
     results = nutrition.query(
         query_texts=[query], 
         n_results=5,
@@ -19,15 +22,20 @@ def search_nutrition_tool(query: str):
     texts = [item for sublist in results['documents'] for item in sublist]
     return "\n".join(texts)
 
-def search_comorbidity_tool(query: str):
+search_nutrition_tool = FunctionTool(func=search_nutrition)
+
+def search_comorbidity(query: str):
+    """Search for comorbidity-related information."""
     results = comorbidity.query(
         query_texts=[query], 
         n_results=5,
     )
     texts = [item for sublist in results['documents'] for item in sublist]
     return "\n".join(texts)
+search_comorbidity_tool = FunctionTool(func=search_comorbidity)
 
-def search_all_tool(query: str):
+def search_all(query: str):
+    """Search for both nutrition and comorbidity-related information."""
     results_nutrition = nutrition.query(
         query_texts=[query], 
         n_results=3,
@@ -42,6 +50,7 @@ def search_all_tool(query: str):
     texts_comorbidity = [item for sublist in results_comorbidity['documents'] for item in sublist]
 
     return "\n".join(texts_nutrition + texts_comorbidity)
+search_all_tool = FunctionTool(func=search_all)
 
 analysis_agent = LlmAgent(
     model="gemini-2.5-flash",
@@ -74,9 +83,10 @@ analysis_agent = LlmAgent(
                 Resposta: O arroz integral cozido possui 2.6g de proteínas, 25.8g de carboidratos e 2.7g de fibras alimentares.
 
         Conteúdo de Suporte:
-            Na necessidade de buscar informações adicionais acerca de nutrição, utilize a ferramenta {search_nutrition_tool}, acerca de comorbidades utilize a ferramenta {search_comorbidity_tool} e acerca de ambos os assuntos utilize a ferramenta {search_all_tool}.
+            Na necessidade de buscar informações adicionais acerca de nutrição, utilize a ferramenta 'search_nutrition_tool', acerca de comorbidades utilize a ferramenta 'search_comorbidity_tool' e acerca de ambos os assuntos utilize a ferramenta 'search_all_tool'.
     """,
     tools=[search_nutrition_tool, search_comorbidity_tool, search_all_tool],
+     include_contents="default",
     generate_content_config=types.GenerateContentConfig(
         temperature=0.3,
         max_output_tokens=250,
@@ -183,9 +193,10 @@ diet_agent = LlmAgent(
             -----------------------------
 
         Conteúdo de Suporte: 
-            Na necessidade de buscar informações adicionais acerca de nutrição, utilize a ferramenta {search_nutrition_tool}, acerca de comorbidades utilize a ferramenta {search_comorbidity_tool} e acerca de ambos os assuntos utilize a ferramenta {search_all_tool}.
+            Na necessidade de buscar informações adicionais acerca de nutrição, utilize a ferramenta 'search_nutrition_tool', acerca de comorbidades utilize a ferramenta 'search_comorbidity_tool' e acerca de ambos os assuntos utilize a ferramenta 'search_all_tool'.
     """,
     tools=[search_nutrition_tool, search_comorbidity_tool],
+    include_contents="default",
     generate_content_config=types.GenerateContentConfig(
         temperature=0.3,
         max_output_tokens=1250,
@@ -217,6 +228,7 @@ root_agent = LlmAgent(
             * **[nutritional_analysis_agent]: [Analisa a composição nutricional de refeições e dietas.]
     """,
     model="gemini-2.5-flash",
+     include_contents="default",
     sub_agents=[diet_agent, analysis_agent],
 )
 
