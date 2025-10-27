@@ -1,4 +1,9 @@
 from google.adk.agents import LlmAgent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from dotenv import load_dotenv
+
+load_dotenv()
 
 analysis_agent = LlmAgent(
     model="gemini-2.5-flash",
@@ -56,5 +61,13 @@ root_agent = LlmAgent(
             * **[nutritional_analysis_agent]: [Analisa a composição nutricional de refeições e dietas.]
     """,
     model="gemini-2.5-flash",
-    sub_agents=[diet_agent, analysis_agent]
+    sub_agents=[diet_agent, analysis_agent],
+
+)
+session_service = InMemorySessionService()
+
+root_runner = Runner(
+    agent=root_agent,
+    app_name="agents",
+    session_service=session_service
 )
