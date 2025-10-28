@@ -35,7 +35,9 @@ def extract_keywords(text: str, max_keywords: int = 10):
     return [w for w, _ in sorted_words[:max_keywords]]
 
 
-def enrich_context_with_analysis(context: Dict[str, Any], tool_name: Optional[str] = None) -> Dict[str, Any]:
+def enrich_context_with_analysis(
+    context: Dict[str, Any], tool_name: Optional[str] = None
+) -> Dict[str, Any]:
     text = context.get("summary") or ""
     entities = []
     keywords = extract_keywords(text)
@@ -49,6 +51,12 @@ def enrich_context_with_analysis(context: Dict[str, Any], tool_name: Optional[st
     out["analysis"] = {
         "tool": tool_name or "local_analysis",
         "success": True,
-        "result": {"entities": entities, "sentiment": sentiment, "categories": categories},
+        "result": {
+            "entities": entities,
+            "sentiment": sentiment,
+            "categories": categories,
+        },
+        "note": "Resumo do contexto gerado.",
+        "additional_context": context.get("summary", ""),
     }
     return out
