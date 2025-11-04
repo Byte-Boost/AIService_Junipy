@@ -4,15 +4,19 @@ from google.adk.sessions import InMemorySessionService
 from google.genai import types
 from dotenv import load_dotenv
 from google.adk.tools import FunctionTool
+from pathlib import Path
 import chromadb
 
 load_dotenv()
 
-client = chromadb.PersistentClient(path="../../docs/my_db")
+
+BASE_DIR = Path(__file__).resolve().parent  
+DB_PATH = BASE_DIR.parent.parent / "docs" / "my_db"  
+client = chromadb.PersistentClient(path=DB_PATH)
 
 nutrition = client.get_or_create_collection(name="nutrition")
 comorbidity = client.get_or_create_collection(name="comorbidity")
-
+print(nutrition.count())
 def search_nutrition(query: str):
     """Search for nutrition-related information."""
     results = nutrition.query(
@@ -207,6 +211,7 @@ root_agent = LlmAgent(
     name="Orquestrador",
     description="Orquestrador de agentes responsável por definir qual agente usar entre médico e nutricional com base na pergunta do usuário",
     instruction="""
+        Caso receba uma informação em outra linguagem que não seja português tente utilizar o tradutor interno para responder isso também inclui termos técnicos.
         Sua tarefa é direcionar a solicitação do usuário aos Agentes Secundários disponíveis que melhor atende à requisição.
 
         Fluxo de Trabalho e Processo de Decisão
