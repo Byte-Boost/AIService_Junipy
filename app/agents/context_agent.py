@@ -13,18 +13,6 @@ import re
 
 from app.models.models import UserHistory, UserInfo
 
-try:
-    from agents.text_analysis import enrich_context_with_analysis
-except Exception:
-
-    def enrich_context_with_analysis(
-        context: Dict[str, Any], tool_name: Optional[str] = None
-    ) -> Dict[str, Any]:
-        out = dict(context)
-        out.setdefault("analysis", {"note": "text_analysis not available"})
-        return out
-
-
 def build_context_from_messages(
     messages: UserHistory, profile: Optional[UserInfo] = None, max_chars: int = 3000
 ) -> Dict[str, Any]:

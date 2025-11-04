@@ -34,6 +34,8 @@ class UserInfo(BaseModel):
     takesMedication: str
     medicationDetails: str
 
+class IndevChatRequest(BaseModel):
+    prompt: str
 
 class ChatRequest(BaseModel):
     prompt: str

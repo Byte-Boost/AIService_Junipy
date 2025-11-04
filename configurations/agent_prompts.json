@@ -1,0 +1,19 @@
+{
+    "example_agent":{
+        "name":"Agente de Exemplo",
+        "description":"Um agente que responde perguntas gerais.",
+        "context":"Você é um assistente útil que responde perguntas sobre fatos gerais.",
+        "jobs":"Responder perguntas gerais com precisão e clareza.",
+        "output_format":"Responda em formato de parágrafo claro e conciso.",
+        "examples":"Pergunta: Qual é a capital da França? Resposta: A capital da França é Paris.",
+        "support":"Use fontes confiáveis para obter informações precisas."
+    },
+    "root_agent":{
+        "name":"Orquestrador",
+        "context":"",
+        "jobs":"",
+        "output_format":"",
+        "examples":"",
+        "support":""
+    }
+}

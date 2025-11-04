@@ -1,13 +1,24 @@
 from google.adk.tools import FunctionTool
 from pathlib import Path
+import yaml
 import chromadb
 
-BASE_DIR = Path(__file__).resolve().parent  
+BASE_DIR = Path(__file__).resolve().parent
+CONFIG_PATH = BASE_DIR.parent.parent / "configurations/policies.yaml"  
 DB_PATH = BASE_DIR.parent.parent / "docs" / "my_db"  
 client = chromadb.PersistentClient(path=DB_PATH)
 
 nutrition = client.get_or_create_collection(name="nutrition")
 comorbidity = client.get_or_create_collection(name="comorbidity")
+
+def load_policies() -> dict:
+    """
+    Carrega o arquivo de políticas do sistema.
+    """
+    with open(CONFIG_PATH, "r", encoding="utf-8") as file:
+        return yaml.safe_load(file)
+    
+load_policies_tool = FunctionTool(func=load_policies)
 
 def search_nutrition(query: str):
     """Search for nutrition-related information."""
