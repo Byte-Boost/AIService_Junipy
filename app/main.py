@@ -88,6 +88,7 @@ async def test_chat(req: IndevChatRequest):
         "prompt": user_prompt,
         "response": final_response_content,
     }
+    
 @app.post("/chat")
 async def chat(req: ChatRequest):
     logger.info(f"Received chat request: {req}")
