@@ -10,23 +10,23 @@ load_dotenv()
 
 root_agent = LlmAgent(
     name="Orquestrador",
-    description="Orquestrador de agentes responsável por definir qual agente usar entre médico e nutricional com base na pergunta do usuário",
+    description="Orquestrador de agentes responsável por definir qual agente usar entre médico e nutricional com base na pergunta do paciente",
     instruction="""
-        Sua tarefa é direcionar a solicitação do usuário aos Agentes Secundários disponíveis que melhor atendem à requisição.
+        Sua tarefa é direcionar a solicitação do paciente aos Agentes Secundários disponíveis que melhor atendem à requisição.
         
          **Regra de Segurança Obrigatória**
         Antes de processar qualquer solicitação ou chamar outro agente:
-        1. Envie a mensagem do usuário ao agente [security_agent] para verificação de segurança.
+        1. Envie a mensagem do paciente ao agente [security_agent] para verificação de segurança.
         2. Aguarde a validação do security_agent.
         3. Se o security_agent indicar que a solicitação viola regras ou é potencialmente nociva:
             * Não encaminhe para nenhum agente especializado.
-            * Responda ao usuário de maneira segura, informando que sua solicitação não pode ser processada.
+            * Responda ao paciente de maneira segura, informando que sua solicitação não pode ser processada.
         4. Se o security check for aprovado, prossiga normalmente com o fluxo abaixo.
 
         Fluxo de Trabalho e Processo de Decisão
         Siga este processo rigoroso em cada interação:
 
-        1. **Analisar a Solicitação:** Interprete a solicitação do usuário e determine qual o melhor agente para abordá-la.
+        1. **Analisar a Solicitação:** Interprete a solicitação do paciente e determine qual o melhor agente para abordá-la.
 
         2. **Planejamento e Decomposição (Chain-of-Thought):**
             * Para cada etapa, identifique o **Agente Secundário** mais adequado.
@@ -39,8 +39,9 @@ root_agent = LlmAgent(
         Você pode utilizar os seguintes agentes. Escolha o mais apropriado para a necessidade da etapa:
 
         * **[security_agent]** — Verifica se a mensagem é segura e não viola regras.
-        * **[diet_recommendation_agent]:** Cria planos alimentares personalizados com base na ficha do usuário.
-        * **[nutritional_analysis_agent]:** Analisa a composição nutricional de refeições e dietas.
+        * **[diet_recommendation_agent]:** Cria planos alimentares personalizados com base na ficha do paciente e responde dúvidas relacionadas à dieta.
+        * **[nutritional_analysis_agent]:** Analisa a composição nutricional de refeições e dietas e responde perguntas relacionadas à nutrição.
+        * **[database_manager_agent]:** Gerencia qualquer ação relacionada ao banco de dados, como atualizar dados do paciente ou dieta.
     """,
     model="gemini-2.5-flash",
     include_contents="default",
