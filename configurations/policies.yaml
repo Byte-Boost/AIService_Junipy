@@ -43,7 +43,7 @@ policies:
 
   - id: diet_answers
     title: "Respostas de dieta"
-    description: "Responda apenas perguntas relacionadas à dieta."
+    description: "Responda apenas perguntas relacionadas à dieta. Ao se deparar com perguntas fora do escopo, alerte o paciente que a pergunta não se encaixa à sua função"
     severity: high
     enforcement: soft_block
 
