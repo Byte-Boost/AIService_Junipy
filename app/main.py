@@ -1,14 +1,14 @@
+import asyncio
 import uvicorn
 import os
 import uuid
 import time
 import logging
 from fastapi import FastAPI, HTTPException
-from app.agents.agent import root_runner
+from app.agents.root_agent import root_runner
 from google.genai import types
 from app.agents.context_agent import build_context_from_messages
-from app.agents.text_analysis import enrich_context_with_analysis
-from app.models.models import ChatRequest, UserHistory, UserInfo
+from app.models.models import ChatRequest, IndevChatRequest, UserHistory, UserInfo
 
 logger = logging.getLogger("uvicorn.error")
 
@@ -30,10 +30,65 @@ logger = logging.getLogger("uvicorn.error")
 
 app = FastAPI(title="Junipy API")
 
+async def ensure_session(root_runner, user_id: str, session_id: str, app_name: str = None, retries: int = 5, delay: float = 0.2):
+    """Ensure a session exists and is ready before running anything."""
+    for attempt in range(retries):
+        try:
+            if app_name:
+                await root_runner.session_service.get_session(
+                    app_name=app_name,
+                    user_id=user_id,
+                    session_id=session_id
+                )
+            else:
+                await root_runner.session_service.get_session(
+                    user_id=user_id,
+                    session_id=session_id
+                )
+            return
+        except ValueError:
+            if attempt == 0:
+                if app_name:
+                    await root_runner.session_service.create_session(
+                        app_name=app_name,
+                        user_id=user_id,
+                        session_id=session_id
+                    )
+                else:
+                    await root_runner.session_service.create_session(
+                        user_id=user_id,
+                        session_id=session_id
+                    )
+            await asyncio.sleep(delay)
+    raise RuntimeError(f"Session {session_id} not found after {retries} retries")
+
+
 @app.get("/")
-def read_root():
+def read_root():    
     return {"message": "Junipy API online"}
 
+@app.post('/indevchat')
+async def test_chat(req: IndevChatRequest):
+    user_prompt = req.prompt
+    user_id = str(uuid.uuid4())
+    session_id =  f"session_{int(time.time())}_{uuid.uuid4().hex}"
+    await root_runner.session_service.create_session(
+            app_name="agents",
+            user_id=user_id,
+            session_id=session_id
+        )
+    user_content = types.Content(role="user", parts=[types.Part(text=user_prompt)])
+
+    async for event in root_runner.run_async(user_id=user_id, session_id=session_id, new_message=user_content):
+        final_response_content = "Não consegui responder sua questão sinto muito, tente novamente."
+        if event.is_final_response() and event.content and event.content.parts:
+            final_response_content = event.content.parts[0].text
+
+    return {
+        "prompt": user_prompt,
+        "response": final_response_content,
+    }
+    
 @app.post("/chat")
 async def chat(req: ChatRequest):
     logger.info(f"Received chat request: {req}")
