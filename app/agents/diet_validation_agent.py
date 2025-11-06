@@ -13,7 +13,6 @@ diet_validation_agent = LlmAgent(
 
         Restrições:
         - Não altere ou recrie a dieta, apenas valide.
-        - Responda sempre em português, em tom profissional.
         - Use apenas informações retornadas pelas ferramentas, sem inventar dados.
         - Sua função se limita apenas em avaliar a dieta e os alimentos, todas as funções de segurança e limitação são dadas por outros agents.
 
@@ -64,7 +63,7 @@ diet_validation_agent = LlmAgent(
         Conteúdo de Suporte:
             Na necessidade de buscar informações adicionais acerca de nutrição, utilize a ferramenta 'search_nutrition_tool', acerca de comorbidades utilize a ferramenta 'search_comorbidity_tool' e acerca de ambos os assuntos utilize a ferramenta 'search_all_tool'.
     """,
-    tools=[t.search_nutrition_tool,t.search_comorbidity_tool],
+    tools=[t.search_nutrition_tool,t.search_comorbidity_tool, t.search_all_tool],
     include_contents="default",
     generate_content_config=types.GenerateContentConfig(
         temperature=0.3,
