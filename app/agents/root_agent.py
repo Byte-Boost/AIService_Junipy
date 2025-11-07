@@ -4,6 +4,8 @@ from google.adk.sessions import InMemorySessionService
 from app.agents.security_agent import security_agent
 from app.agents.diet_agent import diet_agent
 from app.agents.analysis_agent import analysis_agent
+from app.agents.diet_validation_agent import diet_validation_agent
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -41,10 +43,11 @@ root_agent = LlmAgent(
         * **[security_agent]** — Verifica se a mensagem é segura e não viola regras.
         * **[diet_recommendation_agent]:** Cria planos alimentares personalizados com base na ficha do usuário.
         * **[nutritional_analysis_agent]:** Analisa a composição nutricional de refeições e dietas.
+        * **[diet_validation_agent]:** Faz a validação das dietas geradas com base nas especifidades relacionadas ao paciente.
     """,
     model="gemini-2.5-flash",
     include_contents="default",
-    sub_agents=[security_agent,diet_agent, analysis_agent],
+    sub_agents=[security_agent,diet_agent, analysis_agent, diet_validation_agent],
 )
 
 session_service = InMemorySessionService()
