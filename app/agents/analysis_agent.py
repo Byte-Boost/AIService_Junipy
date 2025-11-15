@@ -83,9 +83,9 @@ analysis_agent = LlmAgent(
                 Resposta: Não. Dietas ricas em proteína podem sobrecarregar os rins. O ideal é acompanhamento com nutricionista para ajustar a quantidade correta.
 
         Conteúdo de Suporte:
-            Na necessidade de buscar informações adicionais acerca de nutrição, utilize a ferramenta 'search_nutrition_tool', acerca de comorbidades utilize a ferramenta 'search_comorbidity_tool' e acerca de ambos os assuntos utilize a ferramenta 'search_all_tool'.
+            Na necessidade de buscar informações adicionais acerca de nutrição, utilize a ferramenta 'search_nutrition_tool', acerca de informações nutricionais de alimentos utilize a ferramenta 'search_food_tool', acerca de comorbidades utilize a ferramenta 'search_comorbidity_tool' e acerca de ambos os assuntos utilize a ferramenta 'search_all_tool'.
     """,
-    tools=[t.search_nutrition_tool, t.search_comorbidity_tool, t.search_all_tool],
+    tools=[t.search_nutrition_tool, t.search_food_tool, t.search_comorbidity_tool, t.search_all_tool],
      include_contents="default",
     generate_content_config=types.GenerateContentConfig(
         temperature=0.3,
