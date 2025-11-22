@@ -212,7 +212,6 @@ async def test_chat(
         "user_id": user_id
     }
 
-
 @app.post('/indevchat/reset')
 async def reset_anamnesis_session(
     authorization: str = Header(None, description="Bearer token")
@@ -293,8 +292,6 @@ async def reset_anamnesis_session(
 #             "session_exists": False,
 #             "message": f"Erro: {str(e)}"
 #         }
-
-
 @app.post("/chat")
 async def chat(req: ChatRequest):
     logger.info(f"Received chat request: {req}")

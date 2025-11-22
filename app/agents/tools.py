@@ -117,7 +117,6 @@ def create_anamnese(data: dict):
 
 create_anamnese_tool = FunctionTool(func=create_anamnese)
 
-
 def get_anamneses():
     """
     Recupera todos os documentos de anamnese do backend (MongoDB).
@@ -151,7 +150,6 @@ def get_anamneses():
         return f"Erro inesperado ao recuperar anamneses: {str(e)}"
 
 get_anamneses_tool = FunctionTool(func=get_anamneses)
-
 
 def update_anamnesis_state(
     birthDate: Optional[str] = None,
@@ -251,3 +249,14 @@ def update_anamnesis_state(
     }
 
 update_anamnesis_state_tool = FunctionTool(func=update_anamnesis_state)
+
+def search_food(query: str):
+    """Search for food-related information."""
+    results = nutrition.query(
+        query_texts=[query], 
+        n_results=5,
+    )
+    texts = [item for sublist in results['documents'] for item in sublist]
+    return "\n".join(texts)
+
+search_food_tool = FunctionTool(func=search_food)
