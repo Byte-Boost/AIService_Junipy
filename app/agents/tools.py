@@ -60,3 +60,14 @@ def search_all(query: str):
     return "\n".join(texts_nutrition + texts_comorbidity)
 
 search_all_tool = FunctionTool(func=search_all)
+
+def search_food(query: str):
+    """Search for food-related information."""
+    results = nutrition.query(
+        query_texts=[query], 
+        n_results=5,
+    )
+    texts = [item for sublist in results['documents'] for item in sublist]
+    return "\n".join(texts)
+
+search_food_tool = FunctionTool(func=search_food)
