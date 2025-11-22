@@ -35,9 +35,25 @@ policies:
     severity: medium
     enforcement: advisory
 
+  - id: verified_sources
+    title: "Uso de fontes confiáveis"
+    description: "Ao gerar a resposta para o paciente, use sempre informações confiáveis sobre dieta, comorbidades e nutrição para o desenvolvimento das dietas."
+    severity: high
+    enforcement: soft_block
+
+  - id: diet_answers
+    title: "Respostas de dieta"
+    description: "Responda apenas perguntas relacionadas à dieta. Ao se deparar com perguntas fora do escopo, alerte o paciente que a pergunta não se encaixa à sua função"
+    severity: high
+    enforcement: soft_block
+
 agent_rules:
   orchestrator:
     - maintain_professional_tone
+
+  diet_agent:
+    - verified_sources
+    - diet_answers
 
   security_agent:
     - no_illegal_instructions

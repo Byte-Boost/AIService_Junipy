@@ -4,6 +4,8 @@ from google.adk.sessions import InMemorySessionService
 from app.agents.security_agent import security_agent
 from app.agents.diet_agent import diet_agent
 from app.agents.analysis_agent import analysis_agent
+from app.agents.diet_validation_agent import diet_validation_agent
+
 from dotenv import load_dotenv
 
 load_dotenv()
