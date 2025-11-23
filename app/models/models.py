@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List, Literal, Optional
 from pydantic import BaseModel
 
 
@@ -12,30 +12,38 @@ class UserHistory(BaseModel):
 
 
 class UserInfo(BaseModel):
-    id: str
-    userId: str
-    birthDate: str
-    sex: str
-    occupation: str
-    consultationReason: str
-    healthConditions: List[str]
-    allergies: List[str]
-    surgeries: List[str]
-    activityType: str
-    activityFrequency: str
-    activityDuration: str
-    sleepQuality: str
-    wakeDuringNight: str
-    bowelFrequency: str
-    stressLevel: str
-    alcoholConsumption: str
-    smoking: str
-    hydrationLevel: str
-    takesMedication: str
-    medicationDetails: str
+    id: str = ""
+    userId: str = ""
+    name : str = ""
+    birthDate: str = ""
+    sex: str = ""
+    occupation: str = ""
+    consultationReason: str = ""
+    weight: int = 0
+    height: int = 0
+    healthConditions: List[str] = []
+    allergies: List[str] = []
+    surgeries: List[str] = []
+    activityType: str = ""
+    activityFrequency: str = ""
+    activityDuration: str = ""
+    sleepQuality: str = ""
+    wakeDuringNight: str = ""
+    bowelFrequency: str = ""
+    stressLevel: str = ""
+    alcoholConsumption: str = ""
+    smoking: str = ""
+    hydrationLevel: str = ""
+    takesMedication: str = ""
+    medicationDetails: str = ""
+
+
+UserInfoKeys = Literal[*UserInfo.__annotations__.keys()]
+
 
 class IndevChatRequest(BaseModel):
     prompt: str
+
 
 class ChatRequest(BaseModel):
     prompt: str
