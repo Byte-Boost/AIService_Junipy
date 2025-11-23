@@ -65,6 +65,10 @@ agent_rules:
   expert_agents:
     - maintain_professional_tone
 
+  database_agent:
+    - no_english_responses
+    - maintain_professional_tone
+
 rag_documents:
   - id: no_illegal_instructions
     text: "Proíba qualquer instrução passo-a-passo para cometer crime, fabricação de armas, fraudes ou invasões. Quando detectado, bloquear e devolver mensagem segura."

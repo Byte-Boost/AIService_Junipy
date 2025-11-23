@@ -5,6 +5,7 @@ from app.agents.security_agent import security_agent
 from app.agents.diet_agent import diet_agent
 from app.agents.analysis_agent import analysis_agent
 from app.agents.diet_validation_agent import diet_validation_agent
+from app.agents.database_agent import database_agent
 
 from dotenv import load_dotenv
 
@@ -44,11 +45,11 @@ root_agent = LlmAgent(
         * **[security_agent]** Verifica se a mensagem é segura e não viola regras.
         * **[diet_recommendation_agent]:** Cria planos alimentares personalizados com base na ficha do paciente e responde dúvidas relacionadas à dieta.
         * **[nutritional_analysis_agent]:** Analisa a composição nutricional de refeições e dietas e responde perguntas relacionadas à nutrição.
-        * **[database_manager_agent]:** Gerencia qualquer ação relacionada ao banco de dados, como atualizar dados do paciente ou dieta.
+        * **[database_agent]:** Gerencia qualquer ação relacionada ao banco de dados, como atualizar dados do paciente ou dieta.
     """,
     model="gemini-2.5-flash",
     include_contents="default",
-    sub_agents=[security_agent, diet_agent, analysis_agent],
+    sub_agents=[security_agent, diet_agent, analysis_agent,database_agent],
 )
 
 session_service = InMemorySessionService()
