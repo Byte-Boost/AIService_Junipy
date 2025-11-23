@@ -323,35 +323,23 @@ def get_specific_user_data():
         if not token:
             return {"error": "Token not found"}
         
-        mock_user_data = {
-            "id": "1",
-            "userId": "1",
-            "name": "João Silva",
-            "birthDate": "1990-01-01",
-            "sex": "M",
-            "occupation": "Engenheiro",
-            "consultationReason": "Check-up geral",
-            "weight": 75.0,
-            "height": 180,
-            "healthConditions": ["hipertensão"],
-            "allergies": ["amendoim"],
-            "surgeries": ["apendicectomia"],
-            "activityType": "caminhada",
-            "activityFrequency": "3x por semana",
-            "activityDuration": 30,
-            "sleepQuality": "Boa",
-            "wakeDuringNight": "Não",
-            "bowelFrequency": "Diária",
-            "stressLevel": "Moderado",
-            "alcoholConsumption": "Moderado",
-            "smoking": "Não",
-            "hydrationLevel": "Boa",
-            "takesMedication": "Sim",
-            "medicationDetails": "Anti-hipertensivo",
-        }
-        
-        return mock_user_data
-        
+        headers = {"Authorization": f"Bearer {token}"}
+
+        response = requests.get(API_BASE_URL + "/user/profile-data", headers=headers)
+
+        if response.status_code == 200:
+            return response.json()  
+        elif response.status_code == 401:
+            return "Error: Invalid or expired JWT token."
+        elif response.status_code == 403:
+            return (
+                "Error: You do not have permission to perform this action."
+            )
+        else:
+            return (
+                f"Error ({response.status_code}): {response.text}"
+            )
+
     except Exception as e:
         return {"error": f"Error retrieving user data: {str(e)}"}
     
@@ -376,6 +364,20 @@ def _edit_user_data_impl(modifications: List[tuple[DatabaseFunctions, Any]]):
             current_data[field_name] = new_value
             changes[field_name] = {"old": old_value, "new": new_value}
 
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {token}",
+        }
+        response = requests.post(
+            API_BASE_URL + "/user/profile-data",
+            headers=headers,
+            data=json.dumps(current_data),
+        )
+        if response.status_code not in (200, 204):
+            return {
+                "error": f"Failed to update data ({response.status_code}): {response.text}",
+                "success": False,
+            }
         return {
             "success": True,
             "message": f"Updated {len(changes)} field(s)",
