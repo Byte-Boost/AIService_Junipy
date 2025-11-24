@@ -1,0 +1,74 @@
+policies:
+  - id: no_illegal_instructions
+    title: "Proibir instruções ilegais"
+    description: "Bloquear qualquer pedido que instrua a realizar atividade ilegal (ex.: fabricar explosivos, cometer fraudes)."
+    severity: high
+    enforcement: hard_block
+
+  - id: no_medical_diagnosis
+    title: "Não fornecer diagnóstico médico"
+    description: "Não prover diagnósticos, prescrições ou tratamentos médicos específicos. Fornecer sempre disclaimer e encaminhamento para profissional."
+    severity: high
+    enforcement: soft_block
+
+  - id: privacy_leak
+    title: "Proteção de dados pessoais"
+    description: "Impedir vazamento de dados pessoais (PII) e instruções para obtê-los."
+    severity: high
+    enforcement: hard_block
+
+  - id: maintain_professional_tone
+    title: "Tom profissional"
+    description: "Respostas devem manter tom profissional e evitar ofensas."
+    severity: low
+    enforcement: advisory
+
+  - id: no_english_responses
+    title: "Respostas em português"
+    description: "Todas as respostas devem ser fornecidas em português, independentemente do idioma do pedido. Se necessário, traduzir o pedido antes de responder. Sempre que houver termos em inglês fornecer o termo em português e o termo em inglês entre parênteses. ex: 'maçã (apple)'"
+    severity: high
+    enforcement: advisory
+
+  - id: no_sensitive_advice
+    title: "Avisos para conteúdo sensível"
+    description: "Para pedidos relacionados a saúde mental, sempre fornecer disclaimers e sugerir consulta a especialista."
+    severity: medium
+    enforcement: advisory
+
+  - id: verified_sources
+    title: "Uso de fontes confiáveis"
+    description: "Ao gerar a resposta para o paciente, use sempre informações confiáveis sobre dieta, comorbidades e nutrição para o desenvolvimento das dietas."
+    severity: high
+    enforcement: soft_block
+
+  - id: diet_answers
+    title: "Respostas de dieta"
+    description: "Responda apenas perguntas relacionadas à dieta. Ao se deparar com perguntas fora do escopo, alerte o paciente que a pergunta não se encaixa à sua função"
+    severity: high
+    enforcement: soft_block
+
+agent_rules:
+  orchestrator:
+    - maintain_professional_tone
+
+  diet_agent:
+    - verified_sources
+    - diet_answers
+
+  security_agent:
+    - no_illegal_instructions
+    - no_medical_diagnosis
+    - privacy_leak
+    - no_sensitive_advice
+    - no_english_responses
+
+  expert_agents:
+    - maintain_professional_tone
+
+  database_agent:
+    - no_english_responses
+    - maintain_professional_tone
+
+rag_documents:
+  - id: no_illegal_instructions
+    text: "Proíba qualquer instrução passo-a-passo para cometer crime, fabricação de armas, fraudes ou invasões. Quando detectado, bloquear e devolver mensagem segura."
