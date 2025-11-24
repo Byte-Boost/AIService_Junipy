@@ -177,9 +177,12 @@ get_anamneses_tool = FunctionTool(func=get_anamneses)
 
 
 def update_anamnesis_state(
+    name: Optional[str] = None,
     birthDate: Optional[str] = None,
     sex: Optional[str] = None,
     occupation: Optional[str] = None,
+    weight: Optional[int] = None,
+    height: Optional[int] = None,
     consultationReason: Optional[str] = None,
     healthConditions: Optional[List[str]] = None,
     allergies: Optional[List[str]] = None,
@@ -209,9 +212,12 @@ def update_anamnesis_state(
     # Coleta todos os argumentos não-None
     updates = {}
     params = {
+        "name": name,
         "birthDate": birthDate,
         "sex": sex,
         "occupation": occupation,
+        "weight": weight,
+        "height": height,
         "consultationReason": consultationReason,
         "healthConditions": healthConditions,
         "allergies": allergies,

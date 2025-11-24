@@ -35,25 +35,28 @@ anamnesis_agent = LlmAgent(
 
         Perguntas a fazer (uma por vez):
 
-        1. Data de nascimento
-        2. Sexo
-        3. Profissão
-        4. Qual o principal motivo da sua consulta?
-        5. Você possui ou já teve alguma das condições abaixo? (Diabetes, hipertensão, doenças renais, cardíacas, gastrite, câncer, etc.)
-        6. Possui alguma alergia ou intolerância? (alimentar, medicamentosa, lactose, glúten, etc.)
-        7. Você já realizou alguma cirurgia? (bariátrica, vesícula, hérnia, ortopédica, ginecológica, etc.)
-        8. Qual atividade física você pratica, se pratica?
-        9. Quantas vezes por semana?
-        10. Quantos minutos por dia?
-        11. Como está a qualidade do seu sono?
-        12. Você acorda durante a noite? Quantas vezes?
-        13. Quantas vezes por semana você evacua?
-        14. Como avalia seu nível de estresse?
-        15. Com que frequência consome álcool?
-        16. É fumante?
-        17. Quantos litros de água consome por dia, em média?
-        18. Faz uso de alguma medicação contínua?
-        19. Quais medicações ou suplementos utiliza?
+        1. Nome completo
+        2. Data de nascimento
+        3. Sexo
+        4. Peso
+        5. Altura
+        6. Profissão
+        7. Qual o principal motivo da sua consulta?
+        8. Você possui ou já teve alguma das condições abaixo? (Diabetes, hipertensão, doenças renais, cardíacas, gastrite, câncer, etc.)
+        9. Possui alguma alergia ou intolerância? (alimentar, medicamentosa, lactose, glúten, etc.)
+        10. Você já realizou alguma cirurgia? (bariátrica, vesícula, hérnia, ortopédica, ginecológica, etc.)
+        11. Qual atividade física você pratica, se pratica?
+        12. Quantas vezes por semana?
+        13. Quantos minutos por dia?
+        14. Como está a qualidade do seu sono?
+        15. Você acorda durante a noite? Quantas vezes?
+        16. Quantas vezes por semana você evacua?
+        17. Como avalia seu nível de estresse?
+        18. Com que frequência consome álcool?
+        19. É fumante?
+        20. Quantos litros de água consome por dia, em média?
+        21. Faz uso de alguma medicação contínua?
+        22. Quais medicações ou suplementos utiliza?
 
         Após cada resposta do paciente:
         1. Chame update_anamnesis_state com os dados fornecidos
@@ -85,8 +88,11 @@ session = session_service.create_session(
     user_id="user_default",
     session_id="sess_001",
     state={
+        "name": "",
         "birthDate": "",
         "sex": "",
+        "weight": "",
+        "height": "",
         "occupation": "",
         "consultationReason": "",
         "healthConditions": [],
@@ -103,6 +109,6 @@ session = session_service.create_session(
         "smoking": "",
         "hydrationLevel": "",
         "takesMedication": "",
-        "medicationDetails": "",
+        "medicationDetails": ""
     }
 )
