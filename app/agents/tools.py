@@ -19,7 +19,7 @@ DB_PATH = BASE_DIR.parent.parent / "docs" / "my_db"
 client = chromadb.PersistentClient(path=DB_PATH)
 
 load_dotenv()
-API_BASE_URL = os.getenv("API_BASE_URL")
+API_BASE_URL = os.getenv("API_BASE_URL") or "http://localhost:8080/api"
 
 nutrition = client.get_or_create_collection(name="nutrition")
 comorbidity = client.get_or_create_collection(name="comorbidity")
@@ -443,5 +443,167 @@ def edit_user_data_serializable(modifications: Any):
     except Exception as e:
         return {"error": str(e), "success": False}
 
-
 edit_user_data_tool = FunctionTool(func=edit_user_data_serializable)
+
+def extract_days_of_week_from_diet(diet_text: str) -> List[object]:
+    days = []
+    monday_index = diet_text.find("## Segunda-feira")
+    tuesday_index = diet_text.find("## Terça-feira")
+    wednesday_index = diet_text.find("## Quarta-feira")
+    thirsday_index = diet_text.find("## Quinta-feira")
+    friday_index = diet_text.find("## Sexta-feira")
+    saturday_index = diet_text.find("## Sábado")
+    sunday_index = diet_text.find("## Domingo")
+
+    days.append({"day": "segunda", "content": diet_text[monday_index+16:tuesday_index].strip()})
+    days.append({"day": "terca", "content": diet_text[tuesday_index+14:wednesday_index].strip()})
+    days.append({"day": "quarta", "content": diet_text[wednesday_index+15:thirsday_index].strip()})
+    days.append({"day": "quinta", "content": diet_text[thirsday_index+15:friday_index].strip()})
+    days.append({"day": "sexta", "content": diet_text[friday_index+14:saturday_index].strip()})
+    days.append({"day": "sabado", "content": diet_text[saturday_index+9:sunday_index].strip()})
+    days.append({"day": "domingo", "content": diet_text[sunday_index+10:].strip()})
+
+    return days
+
+def get_diet_plan():
+    """Mock: Retrieves current user diet data from the database."""
+    try:
+        token = jwt_token_ctx.get()
+        
+        if not token:
+            return {"error": "Token not found"}
+        
+        headers = {"Authorization": f"Bearer {token}"}
+
+        response = requests.get(API_BASE_URL + "/user/daily-diet", headers=headers)
+
+        if response.status_code == 200:
+            return response.json()  
+        elif response.status_code == 401:
+            return "Error: Invalid or expired JWT token."
+        elif response.status_code == 403:
+            return (
+                "Error: You do not have permission to perform this action."
+            )
+        else:
+            return (
+                f"Error ({response.status_code}): {response.text}"
+            )
+
+    except Exception as e:
+        return {"error": f"Error retrieving user data: {str(e)}"}
+
+get_diet_plan_tool = FunctionTool(func=get_diet_plan)
+
+def post_diet_plan(diet_list: Optional[List[object]] = None, diet_text: Optional[str] = None):
+    """
+    Envia o plano alimentar para o backend.
+    Aceita:
+      - diet_list: List[{"day":"segunda","content":"..."}]
+      - diet_text: uma string markdown contendo seções "## Segunda-feira", "## Terça-feira", ...
+        (se diet_text for fornecido, será usado extract_days_of_week_from_diet para parsear)
+
+    A rota /user/daily-diet espera:
+        user_id: str
+        day_of_week: enum ("monday", "tuesday", ...)
+        markdown_diet: str
+    """
+    try:
+        token = jwt_token_ctx.get()
+        if not token:
+            return {"error": "Token not found", "success": False}
+
+        if diet_list is None and isinstance(diet_text, str) and diet_text.strip():
+            try:
+                diet_list = extract_days_of_week_from_diet(diet_text)
+            except Exception as e:
+                return {"error": f"Falha ao extrair dias do texto: {str(e)}", "success": False}
+
+        if not isinstance(diet_list, list) or len(diet_list) == 0:
+            return {"error": "Nenhum plano para enviar. Forneça 'diet_list' ou um 'diet_text' válido.", "success": False}
+
+        headers = {"Authorization": f"Bearer {token}"}
+        user_resp = requests.get(API_BASE_URL + "/user/profile-data", headers=headers)
+
+        if user_resp.status_code != 200:
+            return {
+                "error": "Failed to get user info",
+                "status": user_resp.status_code,
+                "details": user_resp.text,
+                "success": False,
+            }
+
+        user_data = user_resp.json()
+        user_id = user_data.get("userId") or user_data.get("id")
+
+        if not user_id:
+            return {
+                "error": "User ID not found in server response",
+                "success": False,
+            }
+
+        results = []
+        post_headers = {
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+        }
+
+        for entry in diet_list:
+            if isinstance(entry, dict):
+                day_key = (entry.get("day") or entry.get("dia") or "").strip().lower()
+                content = entry.get("content") or entry.get("markdown") or entry.get("text") or ""
+            elif isinstance(entry, (list, tuple)) and len(entry) >= 2:
+                day_key = str(entry[0]).strip().lower()
+                content = entry[1]
+            else:
+                results.append({
+                    "entry": entry,
+                    "success": False,
+                    "error": "Formato de entrada inválido"
+                })
+                continue
+
+            if not content:
+                results.append({
+                    "day": day_key,
+                    "success": False,
+                    "error": "Conteúdo vazio"
+                })
+                continue
+
+            payload = {
+                "user_id": user_id,
+                "day_of_week": day_key,
+                "markdown_diet": content,
+            }
+
+            resp = requests.post(
+                API_BASE_URL + "/user/daily-diet",
+                headers=post_headers,
+                data=json.dumps(payload),
+            )
+
+            if resp.status_code not in (200, 201, 204):
+                results.append({
+                    "day": day_key,
+                    "success": False,
+                    "status": resp.status_code,
+                    "error": resp.text
+                })
+            else:
+                results.append({
+                    "day": day_key,
+                    "success": True,
+                    "status": resp.status_code
+                })
+
+        return {
+            "success": True,
+            "message": "Diet plan processed",
+            "results": results,
+        }
+
+    except Exception as e:
+        return {"error": str(e), "success": False}
+
+post_diet_plan_tool = FunctionTool(func=post_diet_plan)

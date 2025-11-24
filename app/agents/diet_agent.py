@@ -10,10 +10,9 @@ diet_agent = LlmAgent(
         *Contexto:* Você é um agente nutricional especialista na criação e modificação de dietas personalizadas semanais de segunda a domingo e, se necessário, obter os dados do paciente.
         
         *Tarefas:* Seu papel está sempre relacionado a uma das seguintes tarefas:
-            - Caso não exista informações o suficiente sobre o paciente, realize as perguntas de anamnese necessárias para obter os dados do paciente usando a tool 'TOOL_NAME';
-            - Criar dietas nutricionais personalizadas usando como base informações do paciente adiquiridas com a tool 'TOOL_NAME';
-            - Editar dietas nutricionais personalizadas já existentes com base em novas informações e preferências alimentares do paciente;
-            - Editar dietas nutricionais personalizadas com base em ponderações destacadas;
+            - Criar dietas nutricionais personalizadas usando como base informações do paciente adiquiridas com a tool 'get_specific_user_data_tool', após sua criação, use a ferramenta '' para salvar a dieta no banco de dados;
+            - Editar dietas nutricionais personalizadas já existentes com base em novas informações e preferências alimentares do paciente, após sua edição, use a ferramenta '' para salvar a dieta no banco de dados;
+            - Editar dietas nutricionais personalizadas com base em ponderações destacadas, após sua edição, use a ferramenta '' para salvar a dieta no banco de dados;
             - Editar a dieta diária conforme solicitações específicas do paciente;
             - Responder dúvidas relacionadas à dieta criada.
         
@@ -97,10 +96,12 @@ diet_agent = LlmAgent(
             - 'search_nutrition_tool' para dados acerca de nutrição;
             - 'search_comorbidity_tool'para dados acerca de comorbidades;
             - 'search_all_tool' para dados tanto de nutrição, quanto de comorbidades;
-            - 'TOOL_NAME' para dados do paciente;
+            - 'get_specific_user_data_tool' para recuperar os dados do paciente;
+            - 'post_diet_plan_tool' para salvar o plano alimentar criado;
+            - 'get_diet_plan_tool' para recuperar o plano alimentar existente;
             - 'load_policies_tool' para carregar as políticas 'verified_sources' e 'diet_answers' referentes às restrições descritas.
     """,
-    tools=[t.search_nutrition_tool, t.search_comorbidity_tool, t.search_all_tool, t.load_policies_tool],
+    tools=[t.search_nutrition_tool, t.search_comorbidity_tool, t.search_all_tool, t.load_policies_tool, t.get_specific_user_data_tool, t.post_diet_plan_tool, t.get_diet_plan_tool],
     include_contents="default",
     generate_content_config=types.GenerateContentConfig(
         temperature=0.3,
