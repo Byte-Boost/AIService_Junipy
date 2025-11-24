@@ -41,11 +41,11 @@ def get_user_id_from_token(token: str) -> str:
         # Tenta diferentes campos comuns em JWTs
         print(payload)
         user_id = (
-            payload.get("sub")
+            payload.get("userId")
             or payload.get("user_id")
             or payload.get("id")
-            or payload.get("userId")
             or payload.get("userID")
+            or payload.get("sub")
         )
         if user_id:
             return str(user_id)
@@ -67,17 +67,17 @@ async def ensure_session(root_runner, user_id: str, session_id: str, app_name: s
                     user_id=user_id,
                     session_id=session_id
                 )
-            else:
-                session = await root_runner.session_service.get_session(
-                    user_id=user_id,
-                    session_id=session_id
-                )
 
             if session:
                 logger.info(f"Session {session_id} found for user {user_id}")
                 return session
-
-            logger.warning(f"Session {session_id} not found for user {user_id}")
+            else:
+                logger.warning(f"Session {session_id} not found for user {user_id}")
+                session = await root_runner.session_service.create_session(
+                    app_name=app_name,
+                    user_id=user_id,
+                    session_id=session_id
+                )
 
         except Exception as e:
             logger.warning(f"Error during session check (attempt {attempt+1}): {e}")
