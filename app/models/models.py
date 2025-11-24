@@ -47,7 +47,4 @@ class IndevChatRequest(BaseModel):
 
 class ChatRequest(BaseModel):
     prompt: str
-    userID: str
-    chatID: Optional[str]
-    userInfo: Optional[UserInfo]
-    userHistory: Optional[List[UserHistory]]
+    chatID: str
