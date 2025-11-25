@@ -6,7 +6,7 @@ import app.agents.tools as t
 
 anamnesis_agent = LlmAgent(
     model="gemini-2.5-flash",
-    name="anamnese_agent",
+    name="anamnesis_agent",
     description="Realiza a anamnese completa de um paciente coletando dados pessoais, clínicos e de hábitos.",
     instruction="""
         Contexto:
@@ -69,40 +69,4 @@ anamnesis_agent = LlmAgent(
         temperature=0.3,
         max_output_tokens=1200,
     )
-)
-
-
-session_service = InMemorySessionService()
-
-anamnesis_runner = Runner(
-    agent=anamnesis_agent,
-    app_name="agents",
-    session_service=session_service
-)
-
-session = session_service.create_session(
-    app_name="anamnesis_agent",
-    user_id="user_default",
-    session_id="sess_001",
-    state={
-        "birthDate": "",
-        "sex": "",
-        "occupation": "",
-        "consultationReason": "",
-        "healthConditions": [],
-        "allergies": [],
-        "surgeries": [],
-        "activityType": "",
-        "activityFrequency": "",
-        "activityDuration": "",
-        "sleepQuality": "",
-        "wakeDuringNight": "",
-        "bowelFrequency": "",
-        "stressLevel": "",
-        "alcoholConsumption": "",
-        "smoking": "",
-        "hydrationLevel": "",
-        "takesMedication": "",
-        "medicationDetails": "",
-    }
 )

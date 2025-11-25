@@ -4,9 +4,9 @@ from google.adk.runners import Runner
 from google.genai import types
 import app.agents.tools as t
 
-database_manager_agent = LlmAgent(
+database_agent = LlmAgent(
     model="gemini-2.5-flash",
-    name="database_manager_agent",
+    name="database_agent",
     description="Agente especializado em editar informações do paciente no banco de dados.",
     instruction="""
     Contexto:
@@ -87,9 +87,7 @@ database_manager_agent = LlmAgent(
 )
 
 database_runner = Runner(
-    agent=database_manager_agent,
-    app_name="database_manager_agent",
+    agent=database_agent,
+    app_name="database_agent",
     session_service=InMemorySessionService()
 )
-
-database_agent = database_manager_agent

@@ -19,7 +19,7 @@ policies:
 
   - id: maintain_professional_tone
     title: "Tom profissional"
-    description: "Respostas devem manter tom profissional e evitar ofensas."
+    description: "Respostas devem manter tom profissional e evitar ofensas, além de não mencionar ferramentas/agentes internos utilizados."
     severity: low
     enforcement: advisory
 

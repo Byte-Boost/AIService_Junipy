@@ -11,7 +11,6 @@ from dotenv import load_dotenv
 from google.adk.tools import FunctionTool
 
 from app.context import jwt_token_ctx
-from app.models.models import UserInfo, UserInfoKeys
 
 BASE_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = BASE_DIR.parent.parent / "configurations/policies.yaml"
@@ -176,6 +175,7 @@ def get_anamneses():
 get_anamneses_tool = FunctionTool(func=get_anamneses)
 
 
+
 def update_anamnesis_state(
     birthDate: Optional[str] = None,
     sex: Optional[str] = None,
@@ -202,11 +202,13 @@ def update_anamnesis_state(
     Atualiza o session.state com novos dados da anamnese.
     Passe apenas os campos que foram fornecidos pelo paciente.
     """
-
+    if tool_context and hasattr(tool_context, "session"):
+        session = tool_context.session
+    else:
+        print("WARNING: tool_context or session not available")
     print("=" * 50)
     print("DEBUG - update_anamnesis_state called")
 
-    # Coleta todos os argumentos não-None
     updates = {}
     params = {
         "birthDate": birthDate,
@@ -235,7 +237,7 @@ def update_anamnesis_state(
             updates[key] = value
 
     print(f"Updates received: {updates}")
-
+    
     # Atualiza o session.state
     if tool_context and hasattr(tool_context, "session"):
         session = tool_context.session
@@ -256,10 +258,16 @@ def update_anamnesis_state(
     if tool_context and hasattr(tool_context, "session"):
         for field in required_fields:
             value = tool_context.session.state.get(field)
-            if value in (None, "", [], {}):
-                missing_fields.append(field)
-            else:
-                filled_fields[field] = value
+            if isinstance(value, str):
+                if value in (None, ""):
+                    missing_fields.append(field)
+                else:
+                    filled_fields[field] = value
+            elif isinstance(value, list):
+                if value is None: 
+                    missing_fields.append(field)
+                else:
+                    filled_fields[field] = value
 
     print(f"Missing fields: {missing_fields}")
     print(f"Filled fields count: {len(filled_fields)}/{len(required_fields)}")
@@ -445,3 +453,46 @@ def edit_user_data_serializable(modifications: Any):
 
 
 edit_user_data_tool = FunctionTool(func=edit_user_data_serializable)
+
+
+from google.adk.tools import AgentTool
+from typing import Dict
+
+def create_agent_tools(
+    security_agent: Any, 
+    anamnesis_agent: Any, 
+    diet_agent: Any, 
+    analysis_agent: Any, 
+    database_agent: Any
+) -> Dict[str, AgentTool]:
+    """
+    Creates AgentTool wrappers using fully initialized agent objects.
+    This structure prevents circular import crashes.
+    """
+    
+    security_validation_tool = AgentTool(agent=security_agent)
+    
+    anamnesis_tool = AgentTool(
+        agent=anamnesis_agent,
+    )
+
+    diet_recommendation_tool = AgentTool(
+        agent=diet_agent,
+    )
+    
+    nutritional_analysis_tool = AgentTool(
+        agent=analysis_agent,
+    )
+    
+    database_tool = AgentTool(
+        agent=database_agent,
+    )
+
+    # Return a dictionary of the tools for easy combination in the root agent
+    return {
+        "security_validation_tool": security_validation_tool,
+        "anamnesis_tool": anamnesis_tool,
+        "diet_recommendation_tool": diet_recommendation_tool,
+        "nutritional_analysis_tool": nutritional_analysis_tool,
+        "database_tool": database_tool,
+    }

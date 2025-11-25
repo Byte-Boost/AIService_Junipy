@@ -42,10 +42,10 @@ def get_user_id_from_token(token: str) -> str:
         print(payload)
         user_id = (
             payload.get("userId")
+            or payload.get("sub")
             or payload.get("user_id")
             or payload.get("id")
             or payload.get("userID")
-            or payload.get("sub")
         )
         if user_id:
             return str(user_id)
@@ -74,10 +74,12 @@ async def ensure_session(root_runner, user_id: str, session_id: str, app_name: s
             else:
                 logger.warning(f"Session {session_id} not found for user {user_id}")
                 session = await root_runner.session_service.create_session(
-                    app_name=app_name,
+                    app_name=app_name or "agents",
                     user_id=user_id,
-                    session_id=session_id
+                    session_id=session_id,
                 )
+                return session
+            
 
         except Exception as e:
             logger.warning(f"Error during session check (attempt {attempt+1}): {e}")
