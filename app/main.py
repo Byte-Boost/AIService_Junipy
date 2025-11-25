@@ -3,6 +3,7 @@ from app.agents.root_agent import root_runner
 from google.genai import types
 from app.models.models import ChatRequest, IndevChatRequest, UserHistory, UserInfo
 from app.context import jwt_token_ctx
+from app.agents.anamnesis_agent import anamnesis_agent_runner
 import uvicorn
 import os
 import logging
@@ -99,7 +100,6 @@ async def chat_endpoint(req: ChatRequest, authorization: str = Header(None, desc
     Endpoint para chat geral com roteamento entre agentes.
     Mantém o estado da sessão entre requisições para o mesmo usuário.
     """
-    # 1. Verificar a autorização
     if not authorization:
         raise HTTPException(status_code=401, detail="Authorization header is required")
 
@@ -111,16 +111,14 @@ async def chat_endpoint(req: ChatRequest, authorization: str = Header(None, desc
     print(authorization)
     token = authorization.replace("Bearer ", "")
     print(token)
-    jwt_token_ctx.set(token)  # Definir o token no contexto
+    jwt_token_ctx.set(token) 
 
     user_prompt = req.prompt
     user_id = get_user_id_from_token(token)
     session_id = req.chatID
 
-    # 2. Logar o início/continuação do chat
     logger.info(f"Usuário {user_id} iniciando/continuando chat geral (sessão: {session_id})")
 
-    # 3. Verificar se a sessão existe. Se não, criar uma nova.
     try:
         session = await ensure_session(
             root_runner, 
@@ -134,17 +132,31 @@ async def chat_endpoint(req: ChatRequest, authorization: str = Header(None, desc
         logger.error(f"Erro ao verificar ou criar sessão: {e}")
         raise HTTPException(status_code=500, detail=f"Erro ao verificar ou criar a sessão: {str(e)}")
 
-    # 4. Preparar o conteúdo da mensagem do usuário
     user_content = types.Content(role="user", parts=[types.Part(text=user_prompt)])
     final_response_content = "Não consegui responder sua questão, sinto muito. Tente novamente."
 
-    # 5. Tentar obter a resposta do agente
+    is_anamnese_complete = session.state.get("ANAMNESE_CONCLUIDA", False)
+    
+    if not is_anamnese_complete:
+        current_runner = anamnesis_agent_runner
+        logger.info(f"Priorizando anamnese: Sessão {session_id} não concluída.")
+    else:
+        current_runner = root_runner
+        logger.info(f"Anamnese concluída: Utilizando o root_runner para roteamento.")
+
     try:
-        async for event in root_runner.run_async(
-            user_id=user_id, session_id=session_id, new_message=user_content
-        ):
-            if event.is_final_response() and event.content and event.content.parts:
-                final_response_content = event.content.parts[0].text
+        if current_runner == root_runner:
+            async for event in current_runner.run_async( 
+                user_id=user_id, session_id=session_id, new_message=user_content
+            ):
+                if event.is_final_response() and event.content and event.content.parts:
+                    final_response_content = event.content.parts[0].text
+        elif current_runner == anamnesis_agent_runner:
+            async for event in current_runner.run_async( 
+                 user_id=user_id, session_id=session_id, new_message=user_content
+            ):
+                if event.is_final_response() and event.content and event.content.parts:
+                    final_response_content = event.content.parts[0].text
 
     except Exception as e:
         logger.error(f"Erro ao processar a mensagem do usuário: {e}")

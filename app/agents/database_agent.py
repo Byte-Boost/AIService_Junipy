@@ -88,6 +88,6 @@ database_agent = LlmAgent(
 
 database_runner = Runner(
     agent=database_agent,
-    app_name="database_agent",
+    app_name="agents",
     session_service=InMemorySessionService()
 )

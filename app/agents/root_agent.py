@@ -2,7 +2,6 @@ from google.adk.agents import LlmAgent
 from google.adk.runners import Runner
 from adk_extra_services.sessions import MongoSessionService
 from app.agents.security_agent import security_agent
-from app.agents.anamnesis_agent import anamnesis_agent
 from app.agents.diet_agent import diet_agent
 from app.agents.analysis_agent import analysis_agent
 from app.agents.database_agent import database_agent
@@ -12,7 +11,6 @@ from dotenv import load_dotenv
 
 agent_tools = t.create_agent_tools(
     security_agent,
-    anamnesis_agent,
     diet_agent,
     analysis_agent,
     database_agent
@@ -48,17 +46,8 @@ name="Orquestrador",
                 * Responda ao paciente de maneira segura e finalize a execução.
             4. Se a validação for **APROVADA**, prossiga para a FASE 2.
 
-        ### FASE 2: Regra de Anamnese Obrigatória
-        Após a aprovação de segurança, garanta a coleta de dados básicos:
-
-            1. Verifique se a Anamnese do paciente está completa no estado da sessão (Session State).
-            2. Se a Anamnese estiver **incompleta** ou se for o primeiro contato do paciente:
-                * **SEGUNDA AÇÃO:** Chame a ferramenta `anamnesis_tool` para iniciar ou continuar o processo de coleta de dados.
-                * Não chame nenhum outro agente/ferramenta até que o `anamnesis_tool` conclua o processo e atualize o estado da sessão.
-            3. Se a Anamnese estiver **completa**, prossiga para a FASE 3.
-
         # ----------------------------------------------------------------------------------
-        # FASE 3: Fluxo de Trabalho e Processo de Decisão (Pós-Obrigatórias)
+        # FASE 2: Fluxo de Trabalho e Processo de Decisão (Pós-Obrigatórias)
         # ----------------------------------------------------------------------------------
         Siga este processo rigoroso em cada interação, após as FASES 1 e 2 estarem completas:
 
@@ -74,14 +63,14 @@ name="Orquestrador",
         Agentes e Ferramentas Disponíveis
         Você DEVE usar os nomes de ferramentas listados abaixo:
         * **`security_validation_tool`**: Verifica a segurança da mensagem. (Fase 1)
-        * **`anamnesis_tool`**: Inicia/continua a entrevista de anamnese para coleta de dados. (Fase 2)
-        * **`diet_recommendation_tool`**: Cria planos alimentares. (Fase 3)
-        * **`nutritional_analysis_tool`**: Analisa a composição nutricional. (Fase 3)
-        * **`database_tool`**: Gerencia dados (atualização, busca) no banco de dados após anamnese. (Fase 3)
+        * **`get_anamneses`**: Obtém dados de anamnese do paciente. (Fase 2)
+        * **`diet_recommendation_tool`**: Cria planos alimentares. (Fase 2)
+        * **`nutritional_analysis_tool`**: Analisa a composição nutricional. (Fase 2)
+        * **`database_tool`**: Gerencia dados (atualização, busca) no banco de dados após anamnese. (Fase 2)
     """,
     model="gemini-2.5-flash",
     include_contents="default",
-    tools=[]+ list(agent_tools.values()) ,
+    tools=[t.get_anamneses]+ list(agent_tools.values()) ,
 )
 
 session_service = MongoSessionService(

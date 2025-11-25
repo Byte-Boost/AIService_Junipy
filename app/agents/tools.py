@@ -4,11 +4,15 @@ from enum import Enum
 from pathlib import Path
 from typing import Any, List, Optional
 
+import jwt
 import chromadb
 import requests
 import yaml
 from dotenv import load_dotenv
 from google.adk.tools import FunctionTool
+from google.adk.tools import ToolContext
+
+from typing import Optional, List, Any
 
 from app.context import jwt_token_ctx
 
@@ -22,6 +26,15 @@ API_BASE_URL = os.getenv("API_BASE_URL")
 
 nutrition = client.get_or_create_collection(name="nutrition")
 comorbidity = client.get_or_create_collection(name="comorbidity")
+
+def get_user_id_from_jwt(token: str) -> str | None:
+    """Decodifica o token JWT (payload) para obter o userId."""
+    try:
+        payload = jwt.decode(token, options={"verify_signature": False})
+        return payload.get("userId") # Use 'userId' conforme seu log anterior
+    except Exception as e:
+        print(f"Erro ao decodificar JWT: {e}")
+        return None
 
 
 def load_policies() -> dict:
@@ -98,7 +111,12 @@ def create_anamnese(data: dict):
         if not token:
             return "Erro: Token de autenticação não encontrado. Certifique-se de enviar o header Authorization."
 
-        # Converter listas para strings se necessário
+        user_id = get_user_id_from_jwt(token)
+        if not user_id:
+            return "Erro: Não foi possível extrair o ID do usuário do token JWT."
+        
+        data["userId"] = user_id
+
         for key, value in data.items():
             if isinstance(value, list):
                 data[key] = [str(v) for v in value]
@@ -175,10 +193,12 @@ def get_anamneses():
 get_anamneses_tool = FunctionTool(func=get_anamneses)
 
 
-
 def update_anamnesis_state(
+    name : Optional[str] = None,
     birthDate: Optional[str] = None,
     sex: Optional[str] = None,
+    weight: Optional[float] = None,
+    height: Optional[float] = None,
     occupation: Optional[str] = None,
     consultationReason: Optional[str] = None,
     healthConditions: Optional[List[str]] = None,
@@ -199,9 +219,9 @@ def update_anamnesis_state(
     tool_context=None,
 ):
     """
-    Atualiza o session.state com novos dados da anamnese.
-    Passe apenas os campos que foram fornecidos pelo paciente.
+    Atualiza o session.state com novos dados da anamnese e verifica a conclusão.
     """
+    
     if tool_context and hasattr(tool_context, "session"):
         session = tool_context.session
     else:
@@ -209,72 +229,82 @@ def update_anamnesis_state(
     print("=" * 50)
     print("DEBUG - update_anamnesis_state called")
 
-    updates = {}
     params = {
-        "birthDate": birthDate,
-        "sex": sex,
-        "occupation": occupation,
-        "consultationReason": consultationReason,
-        "healthConditions": healthConditions,
-        "allergies": allergies,
+        "name": name,
+        "birthDate": birthDate, 
+        "sex": sex, 
+        "weight": weight, 
+        "height": height, 
+        "occupation": occupation, 
+        "consultationReason": consultationReason, 
+        "healthConditions": healthConditions, 
+        "allergies": allergies, 
         "surgeries": surgeries,
-        "activityType": activityType,
+        "activityType": activityType, 
         "activityFrequency": activityFrequency,
-        "activityDuration": activityDuration,
-        "sleepQuality": sleepQuality,
-        "wakeDuringNight": wakeDuringNight,
-        "bowelFrequency": bowelFrequency,
-        "stressLevel": stressLevel,
-        "alcoholConsumption": alcoholConsumption,
-        "smoking": smoking,
-        "hydrationLevel": hydrationLevel,
-        "takesMedication": takesMedication,
+        "activityDuration": activityDuration, 
+        "sleepQuality": sleepQuality, 
+        "wakeDuringNight": wakeDuringNight, 
+        "bowelFrequency": bowelFrequency, 
+        "stressLevel": stressLevel, 
+        "alcoholConsumption": alcoholConsumption, 
+        "smoking": smoking, 
+        "hydrationLevel": hydrationLevel, 
+        "takesMedication": takesMedication, 
         "medicationDetails": medicationDetails,
     }
-
-    for key, value in params.items():
-        if value is not None:
-            updates[key] = value
-
-    print(f"Updates received: {updates}")
     
-    # Atualiza o session.state
-    if tool_context and hasattr(tool_context, "session"):
-        session = tool_context.session
-        print(f"Session state before update: {dict(session.state)}")
+    required_fields = list(params.keys())
 
+    updates = {key: value for key, value in params.items() if value is not None}
+    print(f"Updates received: {updates}")
+
+    if tool_context and hasattr(tool_context, "session"):
+        print(f"Session state before update: {dict(session.state)}")
         for key, value in updates.items():
             session.state[key] = value
-
         print(f"Session state after update: {dict(session.state)}")
     else:
         print("WARNING: tool_context or session not available")
 
-    # Verifica campos faltantes
-    required_fields = list(params.keys())
+   
     missing_fields = []
     filled_fields = {}
 
     if tool_context and hasattr(tool_context, "session"):
+        current_state = tool_context.session.state
+        
         for field in required_fields:
-            value = tool_context.session.state.get(field)
-            if isinstance(value, str):
-                if value in (None, ""):
-                    missing_fields.append(field)
-                else:
-                    filled_fields[field] = value
-            elif isinstance(value, list):
-                if value is None: 
-                    missing_fields.append(field)
-                else:
-                    filled_fields[field] = value
+            value = current_state.get(field)
+            
+            
+            is_empty = (
+                value is None 
+                or (isinstance(value, str) and not value.strip()) 
+                
+            )
+
+            if isinstance(value, list):
+                is_empty = False
+            if is_empty:
+                missing_fields.append(field)
+            else:
+                filled_fields[field] = value
 
     print(f"Missing fields: {missing_fields}")
     print(f"Filled fields count: {len(filled_fields)}/{len(required_fields)}")
     print("=" * 50)
-
+    
+    is_complete = len(filled_fields) == len(required_fields)
+    
+    if tool_context and hasattr(tool_context, "session"):
+        tool_context.session.state["ANAMNESE_CONCLUIDA"] = is_complete
+        tool_context.session.state["CAMPOS_FALTANTES"] = missing_fields
+        print(f"ANAMNESE_CONCLUIDA: {is_complete}")
+        
     return {
         "success": True,
+        "is_complete": is_complete,
         "message": f"Atualizados {len(updates)} campo(s). Faltam {len(missing_fields)} campo(s).",
         "updated_fields": list(updates.keys()),
         "missing_fields": missing_fields,
@@ -283,6 +313,16 @@ def update_anamnesis_state(
 
 
 update_anamnesis_state_tool = FunctionTool(func=update_anamnesis_state)
+
+def get_anamnesis_data_from_state(tool_context: ToolContext):
+    if tool_context and hasattr(tool_context, "session"):
+        anamnesis_keys = ["name","birthDate", "sex", "occupation", "consultationReason","weight","height","healthConditions", "allergies", "surgeries", "activityType", "activityFrequency", "activityDuration", "sleepQuality", "wakeDuringNight", "bowelFrequency", "stressLevel", "alcoholConsumption", "smoking", "hydrationLevel", "takesMedication", "medicationDetails"] 
+        data = {k: tool_context.session.state.get(k) for k in anamnesis_keys}
+        
+        return data
+    return {"error": "Session state não disponível."}
+
+get_anamnesis_data_tool = FunctionTool(func=get_anamnesis_data_from_state)
 
 
 def search_food(query: str):
@@ -324,7 +364,6 @@ class DatabaseFunctions(Enum):
 
 
 def get_specific_user_data():
-    """Mock: Retrieves current user data from the database."""
     try:
         token = jwt_token_ctx.get()
         
@@ -460,7 +499,6 @@ from typing import Dict
 
 def create_agent_tools(
     security_agent: Any, 
-    anamnesis_agent: Any, 
     diet_agent: Any, 
     analysis_agent: Any, 
     database_agent: Any
@@ -472,9 +510,6 @@ def create_agent_tools(
     
     security_validation_tool = AgentTool(agent=security_agent)
     
-    anamnesis_tool = AgentTool(
-        agent=anamnesis_agent,
-    )
 
     diet_recommendation_tool = AgentTool(
         agent=diet_agent,
@@ -491,7 +526,6 @@ def create_agent_tools(
     # Return a dictionary of the tools for easy combination in the root agent
     return {
         "security_validation_tool": security_validation_tool,
-        "anamnesis_tool": anamnesis_tool,
         "diet_recommendation_tool": diet_recommendation_tool,
         "nutritional_analysis_tool": nutritional_analysis_tool,
         "database_tool": database_tool,

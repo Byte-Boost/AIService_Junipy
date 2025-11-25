@@ -94,16 +94,17 @@ diet_agent = LlmAgent(
                 Resposta: No caso de sua dieta, uma boa alternativa seria a substituição do iogurte por 1/2 xícara de café sem açúcar ou 1/2 xícara de chá.
 
         *Conteúdo de Suporte:* Na necessidade de buscar informações adicionais utilize as seguintes tools:
+            - 'get_anamneses' para obter os dados do paciente;
             - 'search_nutrition_tool' para dados acerca de nutrição;
             - 'search_comorbidity_tool'para dados acerca de comorbidades;
             - 'search_all_tool' para dados tanto de nutrição, quanto de comorbidades;
             - 'TOOL_NAME' para dados do paciente;
             - 'load_policies_tool' para carregar as políticas 'verified_sources' e 'diet_answers' referentes às restrições descritas.
     """,
-    tools=[t.search_nutrition_tool, t.search_comorbidity_tool, t.search_all_tool, t.load_policies_tool],
+    tools=[t.get_anamneses,t.search_nutrition_tool, t.search_comorbidity_tool, t.search_all_tool, t.load_policies_tool],
     include_contents="default",
     generate_content_config=types.GenerateContentConfig(
         temperature=0.3,
-        max_output_tokens=1250,
+        max_output_tokens=3050,
     )
 )
